@@ -1,0 +1,8 @@
+tqdm
+openai
+elasticsearch
+groq
+requests
+python-docx
+scikit-learn
+pandas

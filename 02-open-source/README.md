@@ -163,3 +163,7 @@ streamlit run qa_faq.py
 
 Learn more about [**streamlit**](https://docs.streamlit.io/), you can use [**this material**](https://github.com/DataTalksClub/project-of-the-week/blob/main/2022-08-14-frontend.md) from DataTalksClub repository with [**projects of the week**](https://github.com/DataTalksClub/project-of-the-week/tree/main).
 
+
+## Notes: Curated sources
+- https://machine-mind-ml.medium.com/open-sourced-vs-closed-sourced-llms-2392c7db6e10
+- https://github.com/dimzachar/llm_zoomcamp/blob/master/notes/02-open-source/README.md

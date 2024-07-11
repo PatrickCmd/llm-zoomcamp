@@ -6,3 +6,5 @@ requests
 python-docx
 scikit-learn
 pandas
+streamlit
+watchdog

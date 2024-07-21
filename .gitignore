@@ -162,4 +162,4 @@ cython_debug/
 #.idea/
 
 # ollama_files
-ollama_files/
+# ollama_files/

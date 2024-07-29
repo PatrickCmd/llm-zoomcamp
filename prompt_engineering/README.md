@@ -5,3 +5,6 @@
 
 ## Iterative Prompt Engineering
 - [Notebook](./lessons/l3-iterative-prompt-development.ipynb)
+
+## Summarizing text
+- [Notebook](./lessons/l4-summarizing.ipynb)

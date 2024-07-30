@@ -8,3 +8,15 @@
 
 ## Summarizing text
 - [Notebook](./lessons/l4-summarizing.ipynb)
+
+## Inferring
+- [Notebook](./lessons/l5-inferring.ipynb)
+
+## Transforming
+- [Notebook](./lessons/l6-transforming.ipynb)
+
+## Expanding
+- [Notebook](./lessons/l7-expanding.ipynb)
+
+## Chatbot
+- [Notebook](./lessons/l8-chatbot.ipynb)

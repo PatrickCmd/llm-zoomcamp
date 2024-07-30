@@ -1,5 +1,7 @@
 # ChatGPT Prompt Engineering for Developers from DeepLearning.AI
 
+- [Resource](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng)
+
 ## Guidelines
 - [Notebook](./lessons/l2-guidelines.ipynb)
 

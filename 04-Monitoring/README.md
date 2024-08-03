@@ -94,3 +94,7 @@ Links:
 
 - [SQL queries for Grafana](./grafana.md)
 - [Grafana dashboard](./app/graphana_dashboard.png)
+
+### OpenAI API
+
+- [notebook](./openai_test.ipynb)

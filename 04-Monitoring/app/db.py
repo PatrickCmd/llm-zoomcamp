@@ -13,7 +13,7 @@ tz = ZoneInfo("Africa/Kampala")
 def get_db_connection():
     return psycopg2.connect(
         host=os.getenv("POSTGRES_HOST", "postgres"),
-        port=os.getenv("POSTGRES_PORT", 5432),
+        port=os.getenv("POSTGRES_PORT_LOCAL", 5432),
         database=os.getenv("POSTGRES_DB", "course_assistant"),
         user=os.getenv("POSTGRES_USER", "your_username"),
         password=os.getenv("POSTGRES_PASSWORD", "your_password"),

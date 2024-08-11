@@ -1,0 +1,204 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file:
+      content: null
+      extension: py
+      language: python
+      modified_timestamp: 1723110025
+      name: radiant_incantation.py
+      output: null
+      path: /home/src/llm/rager/data_loaders/radiant_incantation.py
+      relative_path: llm/rager/data_loaders/radiant_incantation.py
+      size: 1550
+    file_source:
+      path: rager/data_loaders/radiant_incantation.py
+    templates:
+      api:
+        variables:
+          auth_token: null
+          endpoint: https://github.com/DataTalksClub/llm-zoomcamp/blob/main/01-intro/documents.json?raw=1
+          method: GET
+          parser: null
+          timeout: 30
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  groups:
+  - ingest
+  has_callback: false
+  language: python
+  name: Radiant incantation
+  retry_config: null
+  status: not_executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: radiant_incantation
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file_source:
+      path: rager/transformers/intergalactic_radiance.py
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  groups:
+  - chunking
+  has_callback: false
+  language: python
+  name: Intergalactic radiance
+  retry_config: null
+  status: not_executed
+  timeout: null
+  type: transformer
+  upstream_blocks: []
+  uuid: intergalactic_radiance
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file_source:
+      path: rager/transformers/wondrous_plasma.py
+    templates:
+      lemmatization_spacy:
+        variables:
+          handle_stopwords: false
+          language: en
+          use_pos_tags: true
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  groups:
+  - tokenization
+  has_callback: false
+  language: python
+  name: Wondrous plasma
+  retry_config: null
+  status: not_executed
+  timeout: null
+  type: transformer
+  upstream_blocks: []
+  uuid: wondrous_plasma
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file_source:
+      path: rager/transformers/thalassic_matrix.py
+    templates:
+      spacy_embeddings:
+        variables:
+          model_name: en_core_web_sm
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  groups:
+  - embed
+  has_callback: false
+  language: python
+  name: Thalassic matrix
+  retry_config: null
+  status: not_executed
+  timeout: null
+  type: transformer
+  upstream_blocks: []
+  uuid: thalassic_matrix
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file:
+      content: null
+      extension: py
+      language: python
+      modified_timestamp: 1723113676
+      name: eldritch_dimension.py
+      output: null
+      path: /home/src/llm/rager/data_exporters/eldritch_dimension.py
+      relative_path: llm/rager/data_exporters/eldritch_dimension.py
+      size: 2054
+    file_source:
+      path: rager/data_exporters/eldritch_dimension.py
+    templates:
+      elasticsearch:
+        variables:
+          connection_string: http://elasticsearch:9200/
+          dimensions: null
+          index_name: documents
+          number_of_replicas: 0
+          number_of_shards: 1
+          vector_column_name: embedding
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  groups:
+  - vector_database
+  has_callback: false
+  language: python
+  name: Eldritch dimension
+  retry_config: null
+  status: not_executed
+  timeout: null
+  type: data_exporter
+  upstream_blocks: []
+  uuid: eldritch_dimension
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file:
+      content: null
+      extension: py
+      language: python
+      modified_timestamp: 1723114241
+      name: dazzling_flux.py
+      output: null
+      path: /home/src/llm/rager/data_loaders/dazzling_flux.py
+      relative_path: llm/rager/data_loaders/dazzling_flux.py
+      size: 1493
+    file_source:
+      path: rager/data_loaders/dazzling_flux.py
+    templates:
+      elasticsearch:
+        variables:
+          chunk_column: chunk
+          connection_string: http://elasticsearch:9200
+          index_name: documents
+          vector_column_name: embedding
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  groups:
+  - iterative_retrieval
+  has_callback: false
+  language: python
+  name: Dazzling flux
+  retry_config: null
+  status: not_executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: dazzling_flux
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2024-08-08 09:40:00.270574+00:00'
+data_integration: null
+description: null
+execution_framework: rag
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: Hypnotic prism
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags: []
+type: python
+uuid: hypnotic_prism
+variables_dir: /home/src/mage_data/rager
+widgets: []

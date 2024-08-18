@@ -1,0 +1,8 @@
+google-api-python-client
+youtube-transcript-api
+python-dotenv
+openai==1.35.9
+transformers
+faiss-cpu
+elasticsearch==8.14.0
+sentence-transformers

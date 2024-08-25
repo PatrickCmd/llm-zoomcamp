@@ -1,8 +1,8 @@
 import os
 import time
 
-from openai import OpenAI
 from dotenv import load_dotenv
+from openai import OpenAI
 
 load_dotenv()
 
@@ -69,9 +69,9 @@ class TranscriptCleaner:
 
         answer = response.choices[0].message.content.strip()
         tokens = {
-            'prompt_tokens': response.usage.prompt_tokens,
-            'completion_tokens': response.usage.completion_tokens,
-            'total_tokens': response.usage.total_tokens
+            "prompt_tokens": response.usage.prompt_tokens,
+            "completion_tokens": response.usage.completion_tokens,
+            "total_tokens": response.usage.total_tokens,
         }
         end_time = time.time()
         response_time = end_time - start_time
@@ -112,9 +112,9 @@ class TranscriptCleaner:
 
         answer = response.choices[0].message.content.strip()
         tokens = {
-            'prompt_tokens': response.usage.prompt_tokens,
-            'completion_tokens': response.usage.completion_tokens,
-            'total_tokens': response.usage.total_tokens
+            "prompt_tokens": response.usage.prompt_tokens,
+            "completion_tokens": response.usage.completion_tokens,
+            "total_tokens": response.usage.total_tokens,
         }
         end_time = time.time()
         response_time = end_time - start_time

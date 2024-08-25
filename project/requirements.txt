@@ -6,3 +6,4 @@ transformers
 faiss-cpu
 elasticsearch==8.14.0
 sentence-transformers
+spacy

@@ -1,0 +1,191 @@
+episode_id,question
+52ecatIqjUA,"In episode 133, what is the WebAuthn protocol and how is it changing the way Python developers manage user passwords?"
+52ecatIqjUA,"During the discussion with Dan Moore in episode 133, what are some of the key components of WebAuthn, such as pass keys, ceremonies, authenticators, and hardware standards?"
+52ecatIqjUA,"Can you explain the difference between the Fido Alliance and WebAuthn as discussed in episode 133, and how they are shaping the future of passwordless authentication?"
+52ecatIqjUA,"What notable action did the Python Packaging Authority take in relation to Yubikeys and the top one percent of all packaging projects, as mentioned in episode 133?"
+52ecatIqjUA,"How does the availability of hardware like Android fingerprint, Face ID, Touch ID, and Windows Hello impact the adoption and usability of technologies like WebAuthn, as discussed in episode 133?"
+52ecatIqjUA,What is the analogy used to explain the concept of public and private keys in the episode?
+52ecatIqjUA,How does webAuthn make phishing attacks more challenging according to the discussion in the episode?
+52ecatIqjUA,What authentication methods are recommended over SMS-based authentication in the episode?
+52ecatIqjUA,Can you elaborate on the process of setting up Yubikey as mentioned in the episode?
+52ecatIqjUA,What were some of the key points discussed regarding single sign-on and the reduction of user friction in authentication in the episode?
+52ecatIqjUA,"What is the significance of WebAuthn and how is it being implemented by major companies like Apple, Google, Best Buy, and Amazon as discussed in episode 12?"
+52ecatIqjUA,"Can you explain the process of generating options for authenticators in Python and the tools mentioned such as Pi_web_authen, Pi_warp, Django web auth, and Django web often in episode 12?"
+52ecatIqjUA,"How does the use of decentralized password managers like 1Password impact security and user experience compared to centralized repositories like LastPass, as mentioned in episode 12?"
+52ecatIqjUA,"What challenges and considerations are involved in setting up multiple choices for authentication on a Flask website with web authen, particularly in terms of existing accounts and self-service reset flows, discussed in episode 12?"
+52ecatIqjUA,"In what ways are Python tools like python-fido2 by Ubico being utilized for manipulating Fido devices and implementing web authen support in authentication services like Fusion and Keycloak, as highlighted in episode 12?"
+52ecatIqjUA,"What is the guest, Dan Moore's, opinion on the evolution of Python as discussed in episode?"
+52ecatIqjUA,Can you elaborate on the process of web authentication and its importance in ensuring user security as mentioned in episode?
+52ecatIqjUA,What are the key features and updates in Python 3.11 that were highlighted in the episode?
+52ecatIqjUA,"What are some of the interesting edge cases that the guest, Dan Moore, encountered while building out the lab, as mentioned in the episode?"
+52ecatIqjUA,"What advice did the guest, Dan Moore, give to the listeners regarding improving user experience on websites, particularly mentioning Best Buy's web account in the episode?"
+aEU3JNAbPbo,What were the core lessons that Duart Oliveira Carneiro learned during his four years of Python development journey as discussed in episode 150?
+aEU3JNAbPbo,"How did Duart decide to turn his blog post 'Four Years of Python' into a conference talk, and what were the steps involved in the process as mentioned in the episode?"
+aEU3JNAbPbo,"Why did Duart start writing a blog as a programmer, and what benefits did he mention about writing and sharing his learnings on his blog in episode 150?"
+aEU3JNAbPbo,"What tools and technologies did Duart mention using for his blog, and how did he connect with the maintainer of the static site generator Pelican at PyCon Italia as discussed in the episode?"
+aEU3JNAbPbo,"What was the book that inspired Duart to write his blog post 'Four Years of Python,' and how did the author's retweet of his blog post contribute to the talk's success in episode 150?"
+aEU3JNAbPbo,"What was the guest's experience as an early YouTuber and how did it influence their current interests, as discussed in the episode?"
+aEU3JNAbPbo,"How did the guest's blog post lead to them giving a talk at PyCon Italy, as detailed in the episode?"
+aEU3JNAbPbo,"Can you explain the process of pitching a talk to PyData and how it differs from other Python-related organizations, as mentioned in the episode?"
+aEU3JNAbPbo,"What are some key differences between the Python Software Foundation (PSF) and NumFOCUS, and how does PyData fit into the picture, according to the guest in the episode?"
+aEU3JNAbPbo,"How does the guest view the balance between writing for themselves and writing for an audience, as discussed in the episode?"
+aEU3JNAbPbo,What was the guest's journey into programming and Python as discussed in episode?
+aEU3JNAbPbo,How did the guest's experience with C++ influence their decision to pursue Python programming?
+aEU3JNAbPbo,What were some of the key lessons the guest learned while transitioning from a business-focused role to an engineering role in Python development?
+aEU3JNAbPbo,What are some of the benefits and features of the InfluxDB time series platform mentioned in the episode?
+aEU3JNAbPbo,How did the guest's educational background and experience shape their approach to selecting courses and pursuing Python programming in their Master's degree as discussed in the episode?
+aEU3JNAbPbo,What was the guest's concept of 'Reading is better than Googling' as discussed in episode?
+aEU3JNAbPbo,"Can you explain the importance of documentation and reading technical books in programming, as mentioned in the episode?"
+aEU3JNAbPbo,Which Python libraries with impressive documentation were highlighted in the episode?
+aEU3JNAbPbo,"How does the guest feel about AI tools like GPT and GitHub Copilot in assisting with code development, as discussed in the episode?"
+aEU3JNAbPbo,"What advice did the guest give about keeping things 'stupid simple' in programming, as mentioned in the episode?"
+aEU3JNAbPbo,"In episode one, what was the guest's experience interning in Boston and working on an algorithm that scanned everything around them?"
+aEU3JNAbPbo,"As discussed in the episode, what concept did the guest emphasize about writing code and projects?"
+aEU3JNAbPbo,What Real Python video course was highlighted in the episode and what project does it focus on?
+aEU3JNAbPbo,"What is extensible code according to the guest, as mentioned in the episode?"
+aEU3JNAbPbo,"Can you explain a specific use case mentioned by the guest where a small change in code led to significant functionality improvements, as discussed in the episode?"
+aEU3JNAbPbo,What core concepts of software engineering were discussed in episode one of The Real Python Podcast?
+aEU3JNAbPbo,"What testing approach does the guest take to increase confidence when shipping code, as mentioned in the podcast?"
+aEU3JNAbPbo,"How does the guest define self-work versus shared work in the context of data science, as discussed in the episode?"
+aEU3JNAbPbo,"What tools does the guest use for managing RSS feeds and gathering information, as mentioned in the podcast?"
+aEU3JNAbPbo,"What conferences related to machine learning did the guest recently attend, and what was the overarching theme discussed in the episode?"
+aEU3JNAbPbo,"What conferences is the guest excited about attending in the world of Python, as mentioned in episode one?"
+aEU3JNAbPbo,"Can you explain the new linter, rough, and how it benefits Python projects, as discussed in episode one?"
+aEU3JNAbPbo,"What book is the guest currently reading and finding fascinating, as mentioned in episode one?"
+aEU3JNAbPbo,"How did the guest use Rust in their programming experience, specifically during Advent of Code, as shared in episode one?"
+aEU3JNAbPbo,"Where can people follow the guest online and stay updated on their activities, as mentioned in episode one?"
+aEU3JNAbPbo,What companies were mentioned as relying heavily on InfluxDB in episode one of The Real Python Podcast?
+aEU3JNAbPbo,Who were the guests on the show this week as mentioned in episode one?
+aEU3JNAbPbo,Where can listeners find show notes and links to topics discussed in episode one of The Real Python Podcast?
+aEU3JNAbPbo,What call-to-action was given to the listeners regarding subscribing to the Real Python Podcast in episode one?
+aEU3JNAbPbo,Who is the host of The Real Python Podcast as mentioned in episode one?
+f2i2NvZBxc4,"In episode 154, what feedback did Brett Cannon receive after presenting his PyCon US talk on unearthing a minimum viable version of Python at Podcastades?"
+f2i2NvZBxc4,How did Brett Cannon explain the concept of a platform Target Triple and the importance of defining what system CPython is compiled for in episode 154?
+f2i2NvZBxc4,What prompted Brett Cannon to transition from using Twitter to Mastodon as discussed in episode 154?
+f2i2NvZBxc4,"How does Brett Cannon use polls on Mastodon to gather feedback from the Python community, as mentioned in episode 154?"
+f2i2NvZBxc4,"In episode 154, how does Brett Cannon describe the purpose behind asking random questions and engaging in a feedback loop for potential PEP proposals?"
+f2i2NvZBxc4,What was the motivation behind the guest's syntactic sugar/unraveling series on their blog as discussed in The Real Python Podcast episode?
+f2i2NvZBxc4,Can you explain the concept of syntactic sugar in Python and provide an example as mentioned in The Real Python Podcast episode?
+f2i2NvZBxc4,What were the rules set by the guest for themselves during the blog series on unraveling syntactic sugar in Python as mentioned in The Real Python Podcast episode?
+f2i2NvZBxc4,How did the guest handle the restrictions of unraveling syntactic sugar down to its base components within a single file during the blog series as discussed in The Real Python Podcast episode?
+f2i2NvZBxc4,Can you share any anecdotes or insights from the PyCascades talk where audience members challenged the guest's list of 11 things that couldn't be unraveled in Python as mentioned in The Real Python Podcast episode?
+f2i2NvZBxc4,What motivated the guest to start the MVPI (Minimum Viable Python) project as discussed in episode?
+f2i2NvZBxc4,How did the guest's wife's experience with Jupyter Hub lead to the guest's exploration of WebAssembly in episode?
+f2i2NvZBxc4,What challenges did the guest encounter while trying to compile Python down to WebAssembly in the episode?
+f2i2NvZBxc4,How did the guest's approach to unraveling Python syntax to bytecode and C code help readers understand the semantics in the episode?
+f2i2NvZBxc4,What was the significance of the guest's decision to summarize the steps and methodology of the MVPI project as mentioned in the episode?
+f2i2NvZBxc4,"What was the process like for the guest when thinking about Python in the browser and working on WebAssembly, as discussed in the episode?"
+f2i2NvZBxc4,"Who were some of the key individuals involved in the development of PiScript and the tools used for compiling Python to WebAssembly, as mentioned in the episode?"
+f2i2NvZBxc4,"What challenges were highlighted regarding the packaging story and compatibility of Python modules in the browser environment, as discussed in the episode?"
+f2i2NvZBxc4,Can you explain the differences between Web Assembly (Wasm) and Web Assembly System Interface (Wazi) as outlined in the episode?
+f2i2NvZBxc4,"What insights were shared regarding the hierarchy of Web Assembly as an Instruction Set Architecture, as discussed in the episode?"
+f2i2NvZBxc4,"What is the concept of a platform target triple in relation to compiling apps, as discussed in episode?"
+f2i2NvZBxc4,"How does WebAssembly's design for security and cross-platform functionality make it agnostic to different CPU architectures and operating systems, as explained in the episode?"
+f2i2NvZBxc4,"How does Wazzy provide security and control over file access in a runtime environment, as described in the podcast episode?"
+f2i2NvZBxc4,"In what way does the guest Russell Keith McGee discuss the potential use of Wazzy and Wasm as a direction for Bewear in the future, as mentioned in the episode?"
+f2i2NvZBxc4,"What similarities were drawn between the concept of Docker and WebAssembly in terms of control and security over running code, as discussed in the episode?"
+f2i2NvZBxc4,What challenges does webassembly pose for dynamic loading and linking in Python extension modules as discussed in episode?
+f2i2NvZBxc4,How is the Python community currently handling the issue of webassembly's need to know all code upfront for security purposes?
+f2i2NvZBxc4,What solution involving trampolines at the JavaScript level was discussed as a workaround for dynamic loading in the Python community in the episode?
+f2i2NvZBxc4,What efforts are being made by the guest to address the compatibility issues between webassembly and Python extension modules in the episode?
+f2i2NvZBxc4,How is the guest leveraging webassembly to run Python in the browser for vscode.dev as mentioned in the episode?
+f2i2NvZBxc4,"In episode of The Real Python Podcast, what is the host's dream regarding providing extension module code at runtime for WebAssembly?"
+f2i2NvZBxc4,"According to the transcript chunk, what course is featured in the Real Python video course that builds on object-oriented programming?"
+f2i2NvZBxc4,What is the significance of PEP 11 according to the discussion in the episode of The Real Python Podcast?
+f2i2NvZBxc4,How have various individuals like Will Turner and Cam contributed to cleaning up the PEP repo as mentioned in the episode of The Real Python Podcast?
+f2i2NvZBxc4,Can you explain the tier system for platforms in PEP 11 and why WebAssembly is categorized as tier three as discussed in the episode?
+f2i2NvZBxc4,"In episode 1, what was the guest's background in Python programming as discussed on The Real Python Podcast?"
+f2i2NvZBxc4,What specific platforms are included in tier one of the support system discussed in episode 1 of The Real Python Podcast?
+f2i2NvZBxc4,Can you explain the differences between tier two and tier three in terms of platform support as mentioned in episode 1?
+f2i2NvZBxc4,What are the challenges faced in reaching tier one support for Apple's M1 hardware as described in episode 1 of The Real Python Podcast?
+f2i2NvZBxc4,"In episode 1, who are some of the core developers mentioned as contact points for tier two platform support on The Real Python Podcast?"
+f2i2NvZBxc4,What are the key differences between Wazzy and Wasmtime as discussed in episode?
+f2i2NvZBxc4,Can you elaborate on the potential impact of WebAssembly on IoT and cloud deployments as mentioned in the podcast episode?
+f2i2NvZBxc4,How did the guest go about organizing the invite-only web assembly Summit discussed in the episode?
+f2i2NvZBxc4,"What challenges do Python developers face in terms of dynamic loading of extension modules with Wazi, and what workarounds were suggested in the episode?"
+f2i2NvZBxc4,"What are the guest's thoughts on the future of Python web development in relation to WebAssembly, as discussed in the podcast episode?"
+f2i2NvZBxc4,"In episode one, what role does the guest play in the Python community and how long has he been involved?"
+f2i2NvZBxc4,Can you explain the process behind the 'dead batteries PEP' that was discussed in episode one and how it impacted the Python standard library?
+f2i2NvZBxc4,What were some of the criteria used to determine which modules should be removed from the Python standard library as mentioned in episode one?
+f2i2NvZBxc4,"When is the planned culling of the Python standard library expected to take place, as mentioned in episode one?"
+f2i2NvZBxc4,"What event was the host scheduled to attend and speak at in episode one, and what topics were they planning to cover during their talk?"
+E06DuwV1yxI,What new Python dependency checker tool was discussed in episode 155 of The Real Python Podcast?
+E06DuwV1yxI,"How does PEP 684, a per-interpreter GIL, aim to improve parallelism in Python as mentioned in episode 155?"
+E06DuwV1yxI,What significant announcement regarding AWS Lambda and Python support was made in episode 155?
+E06DuwV1yxI,Can you provide some insights into the host's experience at PyCon US 2023 in Salt Lake City as shared in episode 155?
+E06DuwV1yxI,How did the host and a guest drive to the conference from Colorado and what interesting discussions took place during the journey as mentioned in episode 155?
+E06DuwV1yxI,"Who were some of the previous guests mentioned in the episode, and what was the host's experience connecting with them again? (Episode number not specified)"
+E06DuwV1yxI,What upcoming opportunities and events were discussed related to the Python Software Foundation in the episode? (Episode number not specified)
+E06DuwV1yxI,"What advice did the host give on successfully pitching a topic for the Real Python Podcast, and what kind of content is preferred? (Episode number not specified)"
+E06DuwV1yxI,"What specific packages were discussed during the host's appearance on Talk Python, and how did the conversation deviate from the initial topic of self-promotion? (Episode number not specified)"
+E06DuwV1yxI,"How does the host approach selecting guests for the Real Python Podcast, and what kind of pitches tend to be more successful based on the content of the episode? (Episode number not specified)"
+E06DuwV1yxI,What is the submission process for PyCoders as discussed in episode?
+E06DuwV1yxI,Can you explain the significance of Google's assured open-source software list as mentioned in the episode?
+E06DuwV1yxI,How does the host approach editing and preparing guests for the show as discussed in the episode?
+E06DuwV1yxI,What kind of datasets are mentioned in the article 'Groovy Datasets for Test Databases' as discussed in the episode?
+E06DuwV1yxI,How does the host recommend promoting a project on PyCoders based on the episode content?
+E06DuwV1yxI,What are some of the top Django third-party packages mentioned in the episode of The Real Python Podcast?
+E06DuwV1yxI,"How does the Faulty Depths project aim to help Python developers with managing dependencies, as discussed in the episode?"
+E06DuwV1yxI,What are some key topics covered in the Real Python video course 'Publishing Python Packages to PyPI' as highlighted in the episode?
+E06DuwV1yxI,"What is the significance of the project 'Faulty Depths' and how does it relate to the Python packaging ecosystem, as explained in the episode?"
+E06DuwV1yxI,"What is the new item on the host's bucket list mentioned in the episode, and how does it relate to getting a Python package on Google's list?"
+E06DuwV1yxI,What specific Python command was mentioned as a solution to an issue in the episode? (Episode number not mentioned)
+E06DuwV1yxI,What new security features were introduced at PyPI as discussed in episode five?
+E06DuwV1yxI,How does PyPI Organizations differ for community projects versus corporate projects as described in episode five?
+E06DuwV1yxI,What is the purpose of the PyPI diff project mentioned in episode five?
+E06DuwV1yxI,What nostalgic paint program from 1985 was discussed in the episode? (Episode number not mentioned)
+E06DuwV1yxI,Who is Mark Reali and what project did he create as discussed in the episode?
+E06DuwV1yxI,What is the name of the Python pixel art program mentioned in the episode and what libraries does it use?
+E06DuwV1yxI,"Can you explain the efficiency improvements and advantages of using TR Rex, the regex utility discussed in the episode?"
+E06DuwV1yxI,How does Chat GPT relate to writing regex patterns as mentioned in the episode?
+E06DuwV1yxI,What is the GitHub repo name for the project TR Rex mentioned in the episode and who is the creator?
+E06DuwV1yxI,What is Christopher Trudeau's background in Python programming as mentioned in episode?
+E06DuwV1yxI,How can listeners support the Real Python Podcast as discussed in episode?
+E06DuwV1yxI,What can listeners find in the show notes for the Real Python Podcast as mentioned in episode?
+E06DuwV1yxI,What advice did Christopher Bailey give to aspiring Python developers in the episode?
+E06DuwV1yxI,What platforms can listeners use to leave a review for the Real Python Podcast as mentioned in the episode?
+-0iIa1Xt7rg,"What was the issue Brett Cannon encountered with a Linux Python distribution that led him to create the microvim library, as discussed in episode 156?"
+-0iIa1Xt7rg,"How did Brett Cannon and his team at VS Code aim to encourage users to utilize virtual environments more, as mentioned in episode 156?"
+-0iIa1Xt7rg,"What was the significance of the .venv directory in the context of creating virtual environments within VS Code, as explained by Brett Cannon in episode 156?"
+-0iIa1Xt7rg,"How did Brett Cannon conduct a poll within the Python community to determine the naming convention for virtual environment directories in VS Code, as described in episode 156?"
+-0iIa1Xt7rg,"How does VS Code handle hidden files and directories, such as the .venv directory, in terms of visibility and version control tracking, as clarified by Brett Cannon in episode 156?"
+-0iIa1Xt7rg,"In episode 2, what was the guest's perspective on the virtual environment as an implementation detail for getting work done?"
+-0iIa1Xt7rg,"During episode 2, what was the outcome of the suggested PEP that would prompt users about installing things outside of a virtual environment?"
+-0iIa1Xt7rg,"According to the discussion in episode 2, what are the three main groups that people fall into regarding the creation and management of virtual environments?"
+-0iIa1Xt7rg,"In episode 2, what concerns were raised by the host regarding reproducibility when it comes to reusing a single environment between projects?"
+-0iIa1Xt7rg,"Based on the content of episode 2, how does the host prefer to set up their virtual environments and why?"
+-0iIa1Xt7rg,"In episode 23, what is the reason behind Debian's policy of not including Venv and PIP in their Python installation?"
+-0iIa1Xt7rg,"During the discussion in episode 23, what challenges did the VS Code team face when testing the Python code during endgame week?"
+-0iIa1Xt7rg,"Based on episode 23, what solution did the host recommend for people experiencing issues with creating environments in Dev containers on Ubuntu?"
+-0iIa1Xt7rg,"In episode 23, what led the host to investigate and write a blog post about the simplicity of constructing a directory structure and config file for Python projects?"
+-0iIa1Xt7rg,"According to episode 23, what steps are being taken to make Python installation smoother for beginners using Debian-based OS like Ubuntu?"
+-0iIa1Xt7rg,How did the guest nerd-snipe themselves into solving a problem in under 100 lines of Python code as discussed in episode 1?
+-0iIa1Xt7rg,What is the purpose of the py command tool designed by the guest for Unix as mentioned in episode 1?
+-0iIa1Xt7rg,How does the guest's microvenv extension in VS Code facilitate the creation of virtual environments and installation of pip as described in episode 1?
+-0iIa1Xt7rg,"What approach does the guest take to ensure that virtual environments created in VS Code remain self-contained and independent of the editor, as explained in episode 1?"
+-0iIa1Xt7rg,"Why does the guest emphasize the importance of making sure that virtual environments in VS Code have pip installed even if the user stops using the editor, as discussed in episode 1?"
+-0iIa1Xt7rg,What is the significance of not installing pip into the virtual environment as discussed in episode five of The Real Python Podcast?
+-0iIa1Xt7rg,"How does the Python launcher for Unix play a role in managing Python interpreters and environments, as mentioned in episode five?"
+-0iIa1Xt7rg,What alternative tools to pip were suggested for Python installations in the podcast episode?
+-0iIa1Xt7rg,Can you elaborate on the key takeaways from the Real Python video course 'Getting the Most Out of the Python Standard REPL' as mentioned in the episode?
+-0iIa1Xt7rg,"What challenges did the guest face in experimenting with the event tool and not installing pip, as discussed in the episode?"
+-0iIa1Xt7rg,What tools does the guest use for packaging their Python projects and how have these tools evolved over time? (from episode number not specified)
+-0iIa1Xt7rg,"Can you explain the relationship between Hatch and Hatchling, and how do they fit into your workflow for managing virtual environments and building systems? (from episode number not specified)"
+-0iIa1Xt7rg,What are the guest's thoughts on the changing complaints about Python packaging over the years and the historical context that might be missing in these discussions? (from episode number not specified)
+-0iIa1Xt7rg,"How does the guest classify Python virtual environment workflows, and what considerations do they take into account when creating virtual environments mirroring their GitHub layout? (from episode number not specified)"
+-0iIa1Xt7rg,"What are the guest's opinions on the upcoming packaging Summit happening at PyCon, and what insights do they have on the conversations and surveys conducted by the Python Packaging Authority? (from episode number not specified)"
+-0iIa1Xt7rg,What was the motivation behind the proliferation of Python tools discussed in episode 1 of The Real Python Podcast?
+-0iIa1Xt7rg,"How did the creator of Python, Guido, contribute to the development of graphical browsers as mentioned in episode 1?"
+-0iIa1Xt7rg,What challenges do beginners face in the Python ecosystem according to the discussion in episode 1?
+-0iIa1Xt7rg,What efforts are being made to standardize lock files in Python packaging tools as described in episode 1?
+-0iIa1Xt7rg,Can you elaborate on the guest's journey in developing their own installer with lock file support as discussed in episode 1 of The Real Python Podcast?
+-0iIa1Xt7rg,"What is the guest's unique position within the Python community that allows them to propose ideas without a detailed proof of concept, as discussed in episode twelve of The Real Python Podcast?"
+-0iIa1Xt7rg,"How does the guest explain the historical context and complexity of Python packaging, including the influence of other programming communities, as mentioned in episode twelve?"
+-0iIa1Xt7rg,What personal anecdote did the guest share about their international travel experiences and interactions with individuals from different backgrounds in the Python community in episode twelve?
+-0iIa1Xt7rg,"What are the potential outcomes and discussions expected at the Packaging Summit at PyCon, as mentioned in episode twelve of The Real Python Podcast?"
+-0iIa1Xt7rg,"In what way does the guest suggest simplifying workflows while maintaining access to essential extension modules and integrations in Python, based on the discussion in episode twelve?"
+-0iIa1Xt7rg,"What is Brett Cannon's current project focusing on Rust and concurrency, as discussed in the episode?"
+-0iIa1Xt7rg,"What are some of the ways people can follow Brett Cannon's work online, as mentioned in the episode?"
+-0iIa1Xt7rg,"What challenges and discussions have been happening in the Python community around making distribution easier, as mentioned in the episode?"
+-0iIa1Xt7rg,"What events and activities will Brett Cannon be participating in at PyCon, as discussed in the episode?"
+-0iIa1Xt7rg,"What are some of the potential changes or decisions that may be made regarding packaging paths in Python, as discussed in the episode?"

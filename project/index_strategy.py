@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class IndexingStrategy(ABC):
     @abstractmethod
     def build_index(self, embeddings):

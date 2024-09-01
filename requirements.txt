@@ -1,2 +1,11 @@
 streamlit==1.37.0
 pandas==2.2.2
+langchain_community
+langchain_core
+langchain
+langsmith
+tiktoken
+langchain-openai
+langchainhub
+langchain-elasticsearch
+chromadb

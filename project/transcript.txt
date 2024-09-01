@@ -1,0 +1,37 @@
+Welcome to the Real Python Podcast. This is Episode One, and I'm Christopher Bailey, your host. This week, I have a conversation with Gana Onyelo, one of the authors here at Real Python. We talk about Python decorators, his background, do a little bit of introspection to discuss the Real Python editing process, then we talk about some of the articles he's written for the site and touch on his talk at PyCon last year.
+
+One programming note: in this episode, we discussed PyCon U.S. 2020. The episode was recorded at an earlier date, and at this moment, PyCon U.S. 2020 is looking at its options for rescheduling or a potential cancellation. I'll continue to give you additional updates on PyCon U.S. in upcoming episodes.
+
+Now, here's Episode 1. Let's get started.
+
+The Real Python Podcast is a weekly conversation about using Python in the real world, interviews with experts in the community, and discussions about the topics, articles, and courses found at realpython.com. After the podcast, join us and learn real-world Python skills with a community of experts at realpython.com.
+
+Hey, welcome to the podcast. Where are you joining me from?
+
+I'm in Oslo, Norway, so on the other side of the planet. I'm here in Colorado, where it's currently snowing. We were talking earlier about the weather, right?
+
+Yeah, kind of envious of your snow, but well, probably get some here as well. Do you want to start off by telling us a little bit about how you got involved with Python and eventually Real Python?
+
+Sure, if I'm going all the way back first for some background. I have been coding essentially forever because my dad got a Commodore 64 when I was a young boy. I had a brief interaction with Python at a summer internship about 20 years ago, but that was Python 1.6, I believe. For some reason, it seemed complicated. Then in 2012, I got back into it and was totally blown away by how quick and easy it was to write.
+
+I changed jobs back in 2014 and started working for a mapping authority. We started using Python to rewrite a project that was using Fortran. We did a lot of numpy work to get this project running smoothly. At least for this project, we're pure Python now, which was a fun project to work on.
+
+About two years ago, I heard that Dan Bader had taken over the Real Python website. I sent him a quick note and got an answer. I wrote an article about Pathlib, and Dan really liked it. Since then, I've written several articles and also been working on the team and doing tech reviews for other articles. The publishing process is quite involved, with several stages of reviews.
+
+I've also been doing outline reviews at Real Python for the past year or so, which has been a lot of fun. The pipeline includes writing an outline or an article, technical review, didactic review, and a language edit. It's been a really rewarding experience.
+
+Last year, I did a talk at PyCon about plugins, which is essentially about keeping things configurable outside of the code itself and dispatching functions based on different methods. I've been working on a soccer app project and an industrial project related to krill fishing in the South Atlantic.
+
+One thing I'm excited about right now is the Raspberry Pi. I got one recently and have been exploring different uses for it. I've set it up with Thonny and VS Code and have been experimenting with different projects. It's a really neat little computer with a lot of potential.
+
+I also have a few PyPI packages that I've been working on, including Pipelines and PiGulp, which deal with configuration files. They play nicely together with the way I structure things.
+
+I'm looking forward to the Python conference and running the decorators tutorial. It should be a lot of fun. I'm excited about meeting people and having a chance to talk to all the people that visit the site.
+
+The Real Python community is a great place to hang out and see all the things people are doing. It's been really fun.
+
+I also use IPython as a REPL when working with Python. It offers better tab completion, history, and output saving, making it easier to explore interactively.
+
+I'm also excited about the Raspberry Pi and exploring its different uses. It's an amazing little computer with a lot of potential.
+
+Thank you for joining me on this episode of the Real Python Podcast. I look forward to more conversations with you in the future.

@@ -395,6 +395,17 @@ timestamp              | 2024-09-10 00:19:29.235673+00
 SELECT 1
 ```
 
+## Code
+
+The code for the application is in the [`project`](./) folder:
+
+- [`app.py`](./app.py) - the Streamlit app, the main entrypoint to the application
+- [`llm_rag.py`](./llm_rag.py) - the main RAG logic for building the retrieving the data and building the prompt
+- [`pipeline.py`](./pipeline.py) - fetching the transcription data into the json files
+- [`assistant.py`](./assistant.py) - script with logic for the llm, evaluating relevance, openai cost, and getting answer responses.
+- [`db.py`](./db.py) - the logic for logging the requests and responses to postgres
+- [`prep.py`](./prep.py) - the script for initializing the database and elasticsearch creating vector embeddings for the transcripts
+
 ## Monitoring
 
 We use Grafana for monitoring the application. 

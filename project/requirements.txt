@@ -7,3 +7,9 @@ faiss-cpu
 elasticsearch==8.14.0
 sentence-transformers
 spacy
+streamlit
+psycopg2-binary==2.9.9
+python-dotenv
+
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.3.1+cpu

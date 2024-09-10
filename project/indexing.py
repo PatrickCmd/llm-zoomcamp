@@ -1,21 +1,8 @@
-import faiss
 from elasticsearch import Elasticsearch, helpers
 from sentence_transformers import SentenceTransformer
 
 from chunking import TranscriptChunker
 from index_strategy import IndexingStrategy
-
-
-class FaissIndexingStrategy(IndexingStrategy):
-    def __init__(self, dimension):
-        self.index = faiss.IndexFlatL2(dimension)
-
-    def build_index(self, embeddings):
-        self.index.add(embeddings)
-
-    def search(self, query_embedding, k=5):
-        distances, indices = self.index.search(query_embedding, k)
-        return distances, indices
 
 
 class ElasticsearchIndexingStrategy(IndexingStrategy):
@@ -87,14 +74,18 @@ class ChunkIndexer:
         strategy: IndexingStrategy,
         embedding_model="sentence-transformers/all-MiniLM-L6-v2",
     ):
+        print("Initialize the SentenceTransformer model")
         self.model = SentenceTransformer(embedding_model)
+        print(f"Model: {self.model}")
         self.strategy = strategy
 
     def create_embeddings(self, chunks):
+        print("Create chunk embeddings")
         embeddings = self.model.encode(chunks)
         return embeddings
 
     def build_index(self, embeddings, chunks=[]):
+        print(f"Index the embeddings along with their corresponding chunks")
         if chunks:
             self.strategy.build_index(embeddings, chunks)
         else:
@@ -115,19 +106,13 @@ if __name__ == "__main__":
 
     # Chunk the text by paragraphs
     chunks = chunker.chunk_transcript(text)
-
-    # FAISS Example
-    faiss_strategy = FaissIndexingStrategy(
-        dimension=384
-    )  # Assuming the embedding dimension is 384
-    indexer = ChunkIndexer(strategy=faiss_strategy)
-    embeddings = indexer.create_embeddings(chunks)
-    indexer.build_index(embeddings)
+    print(f"Chunks: {len(chunks)}")
+    print(f"Chunk: {chunks[0]}")
 
     # Elasticsearch Example
 
     # Initialize the SentenceTransformer model
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+    # model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
     # Generate embeddings for the chunks
     # embeddings = model.encode(chunks)
@@ -136,9 +121,10 @@ if __name__ == "__main__":
     es_strategy = ElasticsearchIndexingStrategy(index_name="youtube_transcripts")
 
     # Index the embeddings along with their corresponding chunks
+    print("Index the embeddings along with their corresponding chunks")
     indexer = ChunkIndexer(strategy=es_strategy)
-    # embeddings = indexer.create_embeddings(chunks)
-    # indexer.build_index(embeddings, chunks)
+    embeddings = indexer.create_embeddings(chunks)
+    indexer.build_index(embeddings, chunks)
 
     # Query Elasticsearch with a sample query and retrieve the top 5 results
     query = "What are the important concepts discussed?"

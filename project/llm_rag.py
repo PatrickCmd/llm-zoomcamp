@@ -51,7 +51,7 @@ class LLMRAGHandler:
 
         return answer, tokens, response_time
 
-    def rag(self, query, k=5):
+    def search(self, query, k=5):
         # query_embedding = self.chunk_indexer.model.encode([query])[0]
         retrieved_chunks = self.chunk_indexer.search(query, k)
 
@@ -67,7 +67,9 @@ if __name__ == "__main__":
 
     # Index the embeddings along with their corresponding chunks
     indexer = ChunkIndexer(strategy=es_strategy)
-    llm_query_handler = LLMRAGHandler(chunk_indexer=indexer, client=openai_client)
+    llm_query_handler = LLMRAGHandler(
+        chunk_indexer=indexer, client=openai_client, model="gpt-4o-mini"
+    )
 
     # Handle a query
     queries = [
@@ -83,7 +85,7 @@ if __name__ == "__main__":
         "What PyPI packages has the guest been working on, and what are their purposes?",
     ]
     for query in queries:
-        response, tokens, response_time = llm_query_handler.rag(query, k=5)
+        response, tokens, response_time = llm_query_handler.search(query, k=5)
         print(f"Response: {response}")
         print(f"Tokens: {tokens}")
         print(f"Response time: {response_time}")

@@ -6,8 +6,12 @@ langchainhub
 pinecone-client
 python-dotenv
 tiktoken
+streamlit
+streamlit-chat
+wikipedia
 docx2txt
 pypdf
+pymupdf
 requests
 numpy
 pandas

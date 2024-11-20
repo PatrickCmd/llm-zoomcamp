@@ -15,3 +15,5 @@ pymupdf
 requests
 numpy
 pandas
+chromadb
+langchain_chroma

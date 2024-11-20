@@ -166,3 +166,5 @@ ollama_files/
 
 # streamlit secrets
 secrets.toml
+chroma_db/
+chroma_vector_db/

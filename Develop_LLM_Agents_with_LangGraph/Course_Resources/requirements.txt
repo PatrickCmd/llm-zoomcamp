@@ -1,0 +1,13 @@
+openai
+langchain
+langchain-community
+langchain-openai
+langgraph
+python-dotenv
+pypdf
+requests
+pandas
+semantic_router
+pinecone
+serpapi
+google-search-results

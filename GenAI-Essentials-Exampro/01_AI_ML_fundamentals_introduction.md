@@ -108,8 +108,6 @@ a venn diagram if possibele
 
 
 
-
-```markdown
 # Understanding AI, ML, and DL
 
 Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) are interconnected fields in computer science. Below is an explanation of each term and their relationships.
@@ -156,7 +154,6 @@ Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) are 
 - **AI**: Encompasses all techniques and systems that simulate human intelligence.
 - **ML**: A subset of AI dedicated to systems that learn from data.
 - **DL**: A subset of ML that utilizes deep learning algorithms to process complex data.
-```
 
 
 
@@ -167,9 +164,6 @@ what is GenAI?
 ```
 
 
-
-
-```markdown
 # Understanding Generative AI (GenAI)
 
 ## Definition
@@ -192,7 +186,6 @@ what is GenAI?
 ## Conclusion
 
 Generative AI represents a significant advancement in the field of artificial intelligence, enabling machines to create and innovate in ways that were previously thought to be exclusive to humans. Its applications are vast and continue to grow as technology evolves.
-```
 
 
 
@@ -203,9 +196,6 @@ AI Vs Generative AI (GenAI)
 ```
 
 
-
-
-```markdown
 # AI vs Generative AI (GenAI)
 
 Artificial Intelligence (AI) and Generative AI (GenAI) are related concepts but serve different purposes and functionalities. Below is a comparison outlining their key differences and similarities.
@@ -237,7 +227,6 @@ Artificial Intelligence (AI) and Generative AI (GenAI) are related concepts but 
 ## Conclusion
 
 While AI encompasses a wide range of intelligent behaviors in machines, Generative AI is a specific area within AI that focuses on creating new content based on learned data. Understanding these distinctions is essential for recognizing the capabilities and applications of each within the broader landscape of artificial intelligence.
-```
 
 
 
@@ -248,9 +237,6 @@ What is NLP?
 ```
 
 
-
-
-```markdown
 # Understanding Natural Language Processing (NLP)
 
 ## Definition
@@ -283,7 +269,6 @@ What is NLP?
 ## Conclusion
 
 Natural Language Processing is a crucial technology that bridges the gap between human communication and machine understanding. As advancements in NLP continue, the potential for applications across various sectors grows, enabling more intuitive and human-like interactions with technology.
-```
 
 
 
@@ -292,7 +277,6 @@ Natural Language Processing is a crucial technology that bridges the gap between
 %%ai openai-chat:gpt-4o-mini
 Explain Classification and Regression in ML?
 ```
-
 
 
 
@@ -1103,8 +1087,6 @@ What are Unsupervised Learning Models?
 ```
 
 
-
-
 # Unsupervised Learning Models
 
 Unsupervised learning models are algorithms that identify patterns or groupings in data without the use of labeled outputs. These models analyze the input data to discover its inherent structure. Below are some of the most commonly used unsupervised learning models.
@@ -1219,8 +1201,6 @@ Unsupervised learning models provide a variety of techniques for uncovering hidd
 %%ai openai-chat:gpt-4o-mini
 What are Reinforcement Learning Models?
 ```
-
-
 
 
 # Reinforcement Learning Models
@@ -1397,16 +1377,6 @@ Neural networks and deep learning have revolutionized the field of machine learn
 
 
 
-
-```python
-
-```
-
-
-```python
-
-```
-
 ## BERT
 
 - [What is BERT?](https://h2o.ai/wiki/bert/#:~:text=BERT%2C%20short%20for%20Bidirectional%20Encoder,framework%20for%20natural%20language%20processing)
@@ -1420,8 +1390,6 @@ I want to implement a simple embeddings example using BERT
 
 
 
-
-```markdown
 # Simple BERT Embeddings Example
 
 In this example, we will use the Hugging Face Transformers library to generate embeddings for a given text using BERT. Follow the steps below.
@@ -1485,10 +1453,6 @@ print("Embeddings:", embeddings)
 ## Conclusion
 
 This example shows how to obtain embeddings using BERT. You can modify the input text to generate embeddings for different sentences.
-```
-
-
-
 
 
 ```python
@@ -4564,10 +4528,6 @@ Data scientists are pivotal in transforming raw data into actionable insights. T
 Data Role Comparisons
 ```
 
-
-
-
-```markdown
 # Data Role Comparisons
 
 This document outlines the key differences between various data roles within organizations, focusing on their responsibilities, required skills, and typical use cases.
@@ -4582,7 +4542,6 @@ This document outlines the key differences between various data roles within org
 
 ## Conclusion
 Understanding the distinct roles in data management is essential for organizations aiming to effectively utilize their data resources. Each role contributes uniquely to data analysis, engineering, and strategic decision-making.
-```
 
 
 
@@ -4592,10 +4551,6 @@ Understanding the distinct roles in data management is essential for organizatio
 Train vs Test Validation DataSet
 ```
 
-
-
-
-```markdown
 # Train vs Test Validation Dataset
 
 ## Overview
@@ -4625,8 +4580,6 @@ In machine learning, dividing the dataset into training and testing subsets is e
 
 ## Conclusion
 Understanding the roles of training, validation, and test datasets is crucial for building robust machine learning models. Properly splitting the data helps ensure that the model generalizes well to new data and performs reliably in real-world scenarios.
-```
-
 
 
 
@@ -4635,10 +4588,6 @@ Understanding the roles of training, validation, and test datasets is crucial fo
 What is Corpus?
 ```
 
-
-
-
-```markdown
 # What is a Corpus?
 
 ## Definition
@@ -4665,9 +4614,6 @@ A **corpus** (plural: corpora) is a large and structured set of texts (written o
 
 ## Conclusion
 A corpus is a vital tool in linguistics and NLP, providing a rich source of language data for analysis and model training. Its diverse forms and applications make it an essential resource for researchers, educators, and technology developers alike.
-```
-
-
 
 
 ```python
@@ -4675,10 +4621,6 @@ A corpus is a vital tool in linguistics and NLP, providing a rich source of lang
 What is Data Type?
 ```
 
-
-
-
-```markdown
 # What is a Data Type?
 
 ## Definition
@@ -4715,7 +4657,870 @@ These are defined by the user to create more complex data structures:
 
 ## Conclusion
 Understanding data types is crucial for effective programming and data manipulation. They provide the foundation for data structures and algorithms, allowing developers to write efficient and error-free code.
+
+
+
+# Prompt Engineering
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is Prompt, Prompting, and Prompt Engineering?
 ```
+
+# Prompt, Prompting, and Prompt Engineering
+
+## Prompt
+A **prompt** is a piece of text or an instruction given to an AI model that guides its response. It serves as the input that initiates the model's output generation process. Prompts can vary in complexity, from simple questions to detailed scenarios.
+
+### Examples of Prompts:
+- "What are the benefits of regular exercise?"
+- "Write a short story about a dragon and a princess."
+- "Explain the theory of relativity in simple terms."
+
+## Prompting
+**Prompting** refers to the process of creating and using prompts to elicit desired responses from an AI model. It involves crafting the prompt in such a way that it effectively communicates the user's intent and yields useful or relevant outputs.
+
+### Techniques in Prompting:
+- **Clarity:** Ensuring that the prompt is clear and unambiguous.
+- **Specificity:** Providing specific details to guide the model's response.
+- **Context:** Including context to help the model understand the situation better.
+
+## Prompt Engineering
+**Prompt engineering** is the practice of designing and refining prompts to optimize the performance of AI models. This involves experimenting with different prompt structures, formats, and content to achieve the best possible results. Prompt engineering is crucial for maximizing the effectiveness of language models in various applications.
+
+### Key Aspects of Prompt Engineering:
+- **Iterative Testing:** Continuously testing and modifying prompts based on output quality.
+- **Understanding Model Behavior:** Gaining insights into how the model interprets prompts and what types of prompts yield better results.
+- **Domain-Specific Adjustments:** Tailoring prompts to suit specific fields or industries for more relevant outputs.
+
+## Conclusion
+Prompts, prompting, and prompt engineering are integral components of working with AI language models. Mastering these concepts can significantly enhance the quality and relevance of the generated content.
+
+
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is Zero-Shot prompting?
+```
+
+# Zero-Shot Prompting
+
+## Definition
+**Zero-shot prompting** refers to the technique of asking a language model to generate responses to tasks or questions without providing any specific examples or prior context. In this approach, the model is expected to understand and perform the task based solely on the prompt itself.
+
+## Characteristics
+- **No Prior Examples:** Unlike few-shot prompting, which includes examples to guide the model, zero-shot prompting relies entirely on the prompt to convey the task.
+- **Generalization:** The model must generalize from its training data to understand the prompt and provide a relevant response.
+- **Flexibility:** Zero-shot prompts can be applied to a wide range of tasks, making them versatile for various use cases.
+
+## Examples
+1. **Question Answering:** 
+   - Prompt: "What is the capital of France?"
+   - Model Response: "The capital of France is Paris."
+
+2. **Summarization:**
+   - Prompt: "Summarize the main points of this article about climate change."
+   - Model Response: "The article discusses the effects of climate change, its causes, and potential solutions."
+
+3. **Translation:**
+   - Prompt: "Translate 'Hello, how are you?' into Spanish."
+   - Model Response: "Hola, ¿cómo estás?"
+
+## Advantages
+- **Efficiency:** Reduces the need for extensive examples, making it quicker to generate responses.
+- **Adaptability:** Can be used across multiple tasks without the need for extensive fine-tuning or training.
+
+## Challenges
+- **Accuracy:** Responses may vary in accuracy, as the model must infer the task without explicit guidance.
+- **Complexity:** For more complex tasks, zero-shot prompting may not yield the desired results compared to methods that provide more context.
+
+## Conclusion
+Zero-shot prompting is a powerful technique that leverages the capabilities of language models to perform tasks without prior examples, showcasing their ability to generalize and adapt to new challenges.
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is Few-Shot prompting?
+```
+
+# Few-Shot Prompting
+
+## Definition
+**Few-shot prompting** is a technique used with language models where a small number of examples or demonstrations are provided within the prompt to guide the model's responses. This approach helps the model understand the task better by showing it concrete instances of the desired output.
+
+## Characteristics
+- **Minimal Examples:** Few-shot prompting typically includes a few (usually 2-5) examples that illustrate the task or format required, helping the model learn the pattern.
+- **Task-Specific Guidance:** By providing examples, users can specify exactly how they want the model to perform a certain task.
+- **Enhanced Performance:** Including examples generally leads to improved accuracy and relevance in the model's responses compared to zero-shot prompting.
+
+## Examples
+1. **Text Classification:**
+   - Prompt: 
+     ```
+     Classify the following sentences as either positive or negative:
+     1. "I love this product!" - Positive
+     2. "This is the worst experience I've ever had." - Negative
+     3. "The service was okay." - 
+     ```
+   - Model Response: "Neutral"
+
+2. **Translation:**
+   - Prompt:
+     ```
+     Translate the following English sentences into French:
+     1. "I am happy." - "Je suis heureux."
+     2. "What is your name?" - "Comment vous appelez-vous?"
+     3. "I would like a coffee." - 
+     ```
+   - Model Response: "Je voudrais un café."
+
+3. **Summarization:**
+   - Prompt:
+     ```
+     Summarize the following paragraphs:
+     1. "The novel explores themes of love and betrayal. The protagonist faces numerous challenges..."
+     2. "In the end, the main character learns valuable lessons about trust."
+     3. "The story concludes with a twist that leaves readers surprised." - 
+     ```
+   - Model Response: "The novel deals with love, betrayal, and trust, culminating in a surprising twist."
+
+## Advantages
+- **Improved Accuracy:** Providing examples helps the model better understand the desired output, leading to more precise responses.
+- **Contextual Understanding:** Examples offer context that can clarify ambiguous instructions, enhancing the model's comprehension.
+
+## Challenges
+- **Limited Scalability:** The need to provide examples can make few-shot prompting less efficient for tasks requiring a large variety of outputs.
+- **Example Selection:** Choosing the right examples is crucial, as poorly selected examples can lead to misleading or incorrect model responses.
+
+## Conclusion
+Few-shot prompting harnesses the power of examples to guide language models in performing specific tasks, improving response quality and relevance while maintaining a balance between providing guidance and keeping the prompt concise.
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is Prompt chaining?
+```
+
+
+# Prompt Chaining
+
+## Definition
+**Prompt chaining** is a technique used in natural language processing (NLP) where multiple prompts are linked together in a sequence to build on previous outputs, allowing for more complex interactions and a step-by-step approach to problem-solving or task execution.
+
+## Characteristics
+- **Sequential Interaction:** Each prompt in the chain builds on the output of the previous one, allowing for a more nuanced conversation or task completion.
+- **Modular Approach:** Tasks can be broken down into smaller, manageable components, making it easier to handle complex queries or workflows.
+- **Iterative Refinement:** The model can refine its outputs based on earlier responses, leading to more accurate and contextually relevant results.
+
+## Examples
+1. **Story Generation:**
+   - Prompt 1: "Generate the first paragraph of a fantasy story."
+   - Model Response: "In a land where dragons soar above the clouds, a young hero named Elara embarks on a quest..."
+   - Prompt 2: "Continue the story where Elara encounters a dragon."
+   - Model Response: "As Elara approached the cave, the ground trembled beneath her feet, and the mighty dragon emerged..."
+
+2. **Complex Question Answering:**
+   - Prompt 1: "What are the benefits of exercise?"
+   - Model Response: "Exercise improves physical health, boosts mental well-being, and enhances mood."
+   - Prompt 2: "Can you provide more details on how exercise boosts mental well-being?"
+   - Model Response: "Regular exercise releases endorphins, which help reduce stress and anxiety..."
+
+3. **Data Analysis:**
+   - Prompt 1: "Analyze the following sales data: [data]. What trends do you see?"
+   - Model Response: "There is a noticeable increase in sales during the holiday season."
+   - Prompt 2: "Based on that trend, what recommendations can you provide for the next holiday season?"
+   - Model Response: "I recommend increasing marketing efforts and stock levels prior to the holiday season."
+
+## Advantages
+- **Enhanced Context:** By linking prompts, the model maintains contextual continuity, which improves the coherence of responses.
+- **Problem Decomposition:** Complex tasks can be broken down into simpler steps, making it easier to tackle challenging problems incrementally.
+
+## Challenges
+- **Dependency on Prior Outputs:** The quality of the final output may heavily depend on the accuracy of earlier responses in the chain.
+- **Increased Complexity:** Managing multiple prompts can introduce complexity in structuring the interaction, requiring careful planning.
+
+## Conclusion
+Prompt chaining is a powerful technique that enables more sophisticated interactions with language models by connecting multiple prompts and their responses. This approach allows for deeper exploration of topics, iterative refinement of outputs, and improved handling of complex tasks.
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is Chain-of-Thought (CoT) Prompting?
+```
+
+
+# Chain-of-Thought (CoT) Prompting
+
+## Definition
+**Chain-of-Thought (CoT) prompting** is a technique used in natural language processing (NLP) where the model is encouraged to generate intermediate reasoning steps or explanations before arriving at a final answer. This approach helps enhance the model's logical reasoning, problem-solving abilities, and overall understanding of complex tasks.
+
+## Characteristics
+- **Intermediate Steps:** CoT prompting involves breaking down a problem into smaller, logical steps, allowing the model to articulate its thought process.
+- **Enhanced Reasoning:** By explicitly stating the reasoning path, the model can avoid common pitfalls and arrive at more accurate conclusions.
+- **Structured Output:** The output is often more organized, as the model provides a clear sequence of thoughts leading to the final answer.
+
+## Examples
+1. **Mathematical Problem Solving:**
+   - Prompt: "What is 23 multiplied by 17? Show your reasoning."
+   - Model Response:
+     1. "First, I calculate 20 multiplied by 17, which is 340."
+     2. "Next, I calculate 3 multiplied by 17, which is 51."
+     3. "Finally, I add these two results: 340 + 51 = 391."
+     - Final Answer: "Thus, 23 multiplied by 17 is 391."
+
+2. **Logical Reasoning:**
+   - Prompt: "If all cats are mammals and all mammals are animals, what can we infer about cats?"
+   - Model Response:
+     1. "Since all cats are mammals, they belong to the category of mammals."
+     2. "Additionally, since all mammals are animals, it follows that cats must also be animals."
+     - Final Answer: "Therefore, cats are animals."
+
+3. **Complex Decision Making:**
+   - Prompt: "Should I invest in stocks or bonds? Explain your reasoning."
+   - Model Response:
+     1. "First, I consider the risk tolerance: stocks are generally riskier than bonds."
+     2. "Next, I evaluate the potential returns: stocks offer higher returns over the long term."
+     3. "Lastly, I think about the investment horizon: if I need short-term liquidity, bonds would be a better choice."
+     - Final Answer: "If I am willing to take risks for higher returns, I should consider stocks; otherwise, bonds may be safer."
+
+## Advantages
+- **Improved Accuracy:** By explicitly reasoning through a problem, the model can reduce errors and improve the quality of its answers.
+- **Transparency:** CoT prompting allows users to see the model's reasoning process, making it easier to understand and trust its conclusions.
+
+## Challenges
+- **Increased Complexity:** Generating intermediate reasoning steps can make the output longer and more complex, potentially overwhelming for some users.
+- **Dependence on Prompt Clarity:** The effectiveness of CoT prompting relies on well-structured prompts that clearly guide the model's reasoning process.
+
+## Conclusion
+Chain-of-Thought prompting is a valuable technique in NLP that enhances a model's reasoning capabilities by encouraging it to articulate its thought processes. This approach leads to more accurate, transparent, and structured outputs, particularly for complex tasks that require logical reasoning.
+
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is Tree-of-Thought (ToT) Prompting?
+```
+
+# Tree-of-Thought (ToT) Prompting
+
+## Definition
+**Tree-of-Thought (ToT) prompting** is a sophisticated method in natural language processing (NLP) that enhances the model’s reasoning capabilities by facilitating the exploration of multiple interconnected thought processes. Unlike traditional linear reasoning methods, ToT prompting allows the model to generate and evaluate various potential solutions or reasoning paths simultaneously, creating a branching structure that resembles a tree.
+
+## Characteristics
+- **Branching Structure:** ToT prompting organizes thoughts into branches, where each branch represents a different line of reasoning or potential solution to a problem.
+- **Exploratory Approach:** This method encourages the model to explore multiple avenues of thought, fostering a deeper understanding and comprehensive solution generation.
+- **Comparative Analysis:** The model can assess the viability of different branches, leading to a more informed and nuanced conclusion.
+
+## Examples
+1. **Mathematical Problem Solving:**
+   - **Prompt:** "Solve the equation 3x - 7 = 2. Show different methods."
+   - **Model Response:**
+     - **Branch 1:** "Add 7 to both sides: 3x = 9, then divide by 3: x = 3."
+     - **Branch 2:** "Rearranging gives x = (2 + 7) / 3, which also results in x = 3."
+   - **Final Answer:** "Both methods confirm that x = 3."
+
+2. **Creative Writing Ideas:**
+   - **Prompt:** "Generate concepts for a dystopian novel."
+   - **Model Response:**
+     - **Branch 1:** "A society where thoughts are monitored to eliminate crime."
+     - **Branch 2:** "A world where climate change has led to extreme resource scarcity."
+     - **Branch 3:** "A future where technology has replaced human interaction."
+   - **Final Answer:** "Each concept presents unique themes and challenges for exploration."
+
+3. **Decision Making:**
+   - **Prompt:** "What strategies can I use to improve my health?"
+   - **Model Response:**
+     - **Branch 1:** "Adopt a balanced diet focused on whole foods."
+     - **Branch 2:** "Establish a regular exercise routine."
+     - **Branch 3:** "Prioritize mental health through mindfulness practices."
+   - **Final Answer:** "A combination of these strategies may yield the best results for overall health improvement."
+
+## Advantages
+- **Thorough Exploration:** The ToT approach allows for a more comprehensive examination of problems, leading to richer insights and solutions.
+- **Enhanced Creativity:** By exploring multiple branches of thought, the model can generate innovative ideas and creative solutions.
+
+## Challenges
+- **Complexity of Output:** The branching nature can lead to intricate outputs that may be difficult to interpret or follow.
+- **Increased Resource Demand:** Evaluating and processing multiple branches can require more computational resources and time.
+
+## Conclusion
+Tree-of-Thought prompting is an innovative technique that significantly enhances the reasoning capabilities of NLP models by enabling them to explore multiple interconnected thought processes. This approach fosters comprehensive problem-solving, creativity, and nuanced decision-making, making it a valuable tool for tackling complex tasks.
+
+
+
+### Tree-of-Thought Prompting Lab
+- [Prompt Engineering Guide](https://www.promptingguide.ai/techniques/tot)
+- [PromptHub](https://www.prompthub.us/blog/how-tree-of-thoughts-prompting-works)
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+
+You are a super intelligent movie recommender AI! Here is your task: {{ task }}. 
+
+Your goal is to leverage this information and use the Tree of Thoughts method to come to an optimal conclusion. 
+
+Step 1: Understanding the Friends' Preferences
+Review the hardcoded movie preferences provided for each friend. Create a list of their unique movie characteristics, including favorite genres, preferred actors, and any specific movie elements they enjoy.
+
+Step 2: Brainstorming Movie Options
+Using the gathered preferences, generate a list of potential movie options that align with each friend's interests. The thoughts here should consist of movie titles, genres, or specific actors/directors that match their preferences.
+
+Step 3: Evaluating Movie Options
+Evaluate the potential movie options based on each friend's preferences. You can assign a value (1-10) to each movie, representing how well it matches their interests. Consider their individual tastes and try to find movies that score high for each friend.
+
+Step 4: Selecting the Best Movie
+Now that you have a list of movies with their corresponding scores, review the evaluations and select the movie that received the highest overall score, considering the combined preferences of all friends.
+
+Step 5: Providing the Recommendation
+Finally, reveal the perfect movie choice! Output the selected movie title as your recommendation for the movie night. Make sure to include a brief description or highlight some interesting aspects of the movie to pique their curiosity.
+
+With your knowledge of their preferences and the ToT method at your disposal, you are bound to impress your friends with the ultimate movie recommendation!
+
+---
+Instructions:
+Use the Tree of Thoughts (ToT) method to navigate through the steps and generate the best movie recommendation for the group of friends based on their hardcoded movie preferences. Enjoy the movie night!
+
+
+```Task
+Here are three friend names and the five action movies each likes:
+
+1. **Alex**  
+   - John Wick (2014)  
+   - Mad Max: Fury Road (2015)  
+   - The Dark Knight (2008)  
+   - Mission: Impossible – Fallout (2018)  
+   - Gladiator (2000)  
+
+2. **Jordan**  
+   - Die Hard (1988)  
+   - The Matrix (1999)  
+   - Taken (2008)  
+   - Inception (2010)  
+   - The Bourne Ultimatum (2007)  
+
+3. **Taylor**  
+   - Avengers: Endgame (2019)  
+   - Terminator 2: Judgment Day (1991)  
+   - Black Panther (2018)  
+   - The Raid: Redemption (2011)  
+   - Casino Royale (2006) 
+```
+```
+
+
+# Movie Recommendation Using Tree-of-Thought (ToT) Method
+
+## Step 1: Understanding the Friends' Preferences
+
+### Unique Movie Characteristics
+- **Alex**  
+  - **Favorite Genres:** Action, Thriller  
+  - **Preferred Actors/Directors:** Keanu Reeves, Christopher Nolan  
+  - **Specific Elements:** Intense action sequences, strong protagonists, high stakes
+
+- **Jordan**  
+  - **Favorite Genres:** Action, Sci-Fi, Thriller  
+  - **Preferred Actors/Directors:** Bruce Willis, Liam Neeson, Christopher Nolan  
+  - **Specific Elements:** Clever plots, mind-bending twists, action-packed sequences
+
+- **Taylor**  
+  - **Favorite Genres:** Action, Superhero, Sci-Fi  
+  - **Preferred Actors/Directors:** Chris Evans, Chadwick Boseman, James Cameron  
+  - **Specific Elements:** Superhero themes, epic battles, advanced technology
+
+## Step 2: Brainstorming Movie Options
+
+### Potential Movie Options
+1. **Mad Max: Fury Road** (2015) - Action, Adventure
+2. **John Wick** (2014) - Action, Thriller
+3. **The Dark Knight** (2008) - Action, Crime
+4. **Die Hard** (1988) - Action, Thriller
+5. **Inception** (2010) - Sci-Fi, Action
+6. **Avengers: Endgame** (2019) - Action, Superhero
+7. **Casino Royale** (2006) - Action, Thriller
+8. **Terminator 2: Judgment Day** (1991) - Action, Sci-Fi
+9. **The Matrix** (1999) - Sci-Fi, Action
+10. **Black Panther** (2018) - Action, Superhero
+
+## Step 3: Evaluating Movie Options
+
+### Evaluation Scores (1-10)
+| Movie Title                          | Alex | Jordan | Taylor | Total Score |
+|--------------------------------------|------|--------|--------|-------------|
+| Mad Max: Fury Road                  | 10   | 7      | 8      | 25          |
+| John Wick                            | 10   | 6      | 7      | 23          |
+| The Dark Knight                      | 9    | 5      | 7      | 21          |
+| Die Hard                             | 8    | 10     | 6      | 24          |
+| Inception                            | 8    | 10     | 7      | 25          |
+| Avengers: Endgame                   | 7    | 8      | 10     | 25          |
+| Casino Royale                        | 9    | 7      | 6      | 22          |
+| Terminator 2: Judgment Day          | 7    | 6      | 9      | 22          |
+| The Matrix                           | 6    | 10     | 7      | 23          |
+| Black Panther                        | 6    | 5      | 10     | 21          |
+
+## Step 4: Selecting the Best Movie
+
+### Top Scores
+- **Mad Max: Fury Road** - 25
+- **Inception** - 25
+- **Avengers: Endgame** - 25
+- **Die Hard** - 24
+- **John Wick** - 23
+- **The Matrix** - 23
+
+Since multiple movies scored equally high, we can consider the genres and preferences to determine the most suitable choice.
+
+## Step 5: Providing the Recommendation
+
+### **Recommended Movie: Inception (2010)**
+
+**Description:**  
+*Inception* is a mind-bending thriller directed by Christopher Nolan that follows a skilled thief who specializes in corporate espionage through the use of dream-sharing technology. The film features high-stakes action, intricate plot twists, and stunning visuals, making it a perfect fit for all three friends who appreciate clever storytelling and intense action sequences.
+
+**Why This Movie?**  
+- **Action and Thrills:** It has intense sequences that Alex and Jordan enjoy.
+- **Mind-Bending Plot:** Appeals to Jordan's love for clever narratives.
+- **Sci-Fi Elements:** Contains advanced technology, aligning with Taylor's interests.
+
+This recommendation promises to captivate the group and ensure an exhilarating movie night!
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is CO-STAR prompting framework in the context of prompt engineering?
+```
+
+
+# CO-STAR Prompting Framework in Prompt Engineering
+
+The CO-STAR prompting framework is a structured method utilized in prompt engineering, particularly for developing effective prompts for AI models. It helps in crafting clear, context-rich prompts that guide the AI's responses, ensuring relevant and accurate outputs.
+
+## Components of CO-STAR in Prompt Engineering
+
+1. **C - Context**
+   - Provide background information that situates the prompt. This can include relevant details about the topic, previous interactions, or specific scenarios that inform the AI's understanding.
+
+2. **O - Objective**
+   - Clearly state the purpose of the prompt. Define what you want to achieve with the AI's response, whether it is to generate information, summarize content, or answer a specific question.
+
+3. **S - Specifics**
+   - Specify the details or requirements of the response. This may involve outlining particular aspects that the AI should focus on, such as tone, format, or length of the output.
+
+4. **T - Task**
+   - Define the task that the AI is expected to perform. This could be generating text, providing a solution, or analyzing information based on the context provided.
+
+5. **A - Audience**
+   - Identify the target audience for the response. Understanding who will be reading or using the output can help tailor the AI's tone and style accordingly.
+
+6. **R - Response**
+   - Encourage the AI to generate a thoughtful and relevant response based on the provided context, objectives, specifics, task, and audience considerations.
+
+## Benefits of the CO-STAR Framework in Prompt Engineering
+
+- **Clarity**: Ensures that prompts are clear and well-defined, leading to more accurate responses from the AI.
+- **Focus**: Helps maintain focus on the desired outcomes, reducing ambiguity in AI interactions.
+- **Contextual Relevance**: Improves the relevance of the output by providing necessary background and specifications.
+- **Enhanced Engagement**: Encourages richer interactions with AI by prompting it to consider various aspects of the task at hand.
+
+## Conclusion
+
+The CO-STAR prompting framework is a valuable tool in prompt engineering, facilitating the creation of effective prompts that yield high-quality responses from AI models. By focusing on context, objectives, specifics, tasks, audience, and response, users can optimize their interactions with AI systems for better outcomes.
+
+
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+What is ReAct Prompting?
+```
+
+
+# ReAct Prompting
+
+ReAct Prompting is a prompting strategy used in the context of AI language models to enhance their performance on tasks requiring reasoning, action, or decision-making. It is particularly effective for complex tasks that involve multi-step reasoning or require the model to provide structured outputs.
+
+## Components of ReAct Prompting
+
+1. **Reasoning**
+   - This component encourages the model to engage in logical reasoning before generating a final response. It involves breaking down the problem, analyzing the information, and considering different perspectives or solutions.
+
+2. **Action**
+   - In this part, the model is prompted to take specific actions based on the reasoning conducted. This could involve generating a response, making a decision, or suggesting a course of action that follows logically from the reasoning stage.
+
+3. **Output**
+   - Finally, the model produces a structured output that reflects the reasoning and actions taken. The output should be clear, coherent, and relevant to the task at hand.
+
+## Benefits of ReAct Prompting
+
+- **Improved Accuracy**: By encouraging reasoning before action, ReAct prompting can lead to more accurate and contextually appropriate responses.
+- **Structured Responses**: It helps in generating outputs that are not only correct but also logically organized and easy to understand.
+- **Enhanced Problem-Solving**: This approach is particularly useful for tasks that require critical thinking, as it prompts the model to consider various factors before arriving at a conclusion.
+
+## Applications of ReAct Prompting
+
+- **Complex Problem Solving**: Ideal for situations requiring detailed analysis and step-by-step reasoning.
+- **Decision-Making Tasks**: Useful in scenarios where the model needs to evaluate options and suggest actions.
+- **Creative Writing**: Can enhance storytelling by prompting reasoning about character motivations and plot developments.
+
+## Conclusion
+
+ReAct Prompting is a powerful strategy for leveraging AI models in tasks that require thoughtful reasoning and structured action. By integrating reasoning and action into the prompting process, users can achieve higher-quality outputs and more effective interactions with AI systems.
+
+
+
+### Example ReAct prompting LLM app
+
+
+```python
+from openai import OpenAI
+
+system_prompt = '''
+You are an AI assistant who can perform the following steps:
+1. Reason through the problem by describing your thoughts in a "Thought:" section.
+2. When you need to use a tool, output an "Action:" section with the tool name and its input.
+3. After the tool call, you'll see an "Observation:" section with the tool's output.
+4. Continue this cycle of Thought → Action → Observation as needed.
+5. End with a concise "Final Answer:" that answers the user's query.
+
+Note:
+- The chain of thought in "Thought:" sections is only visible to you and not part of your final answer.
+- The user should only see your "Final Answer:".
+'''
+
+user_prompt = '''
+What is the weather in Thunder Bay, Ontario, Canada Today?
+'''
+
+client = OpenAI()
+
+completion = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": system_prompt},
+        {"role": "user","content": user_prompt}
+    ]
+)
+
+text = completion.choices[0].message.content
+print(text)
+```
+
+    Thought: To provide the current weather in Thunder Bay, Ontario, Canada, I will need to check a reliable weather source for up-to-date information. 
+    
+    Action: CheckWeatherAPI with the location "Thunder Bay, Ontario, Canada". 
+    
+    Observation: (Assuming this action retrieves the relevant weather information for today, such as temperature, conditions, etc.)
+    
+    Final Answer: The weather in Thunder Bay, Ontario, Canada today is [insert current weather conditions here].
+
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+
+Write a python program using regular expressions to extract the Action and it's parameters for the given text {{ text }}
+
+```text
+Thought: To provide the current weather in Thunder Bay, Ontario, Canada, I will need to check a reliable weather source for up-to-date information. 
+
+Action: CheckWeatherAPI with the location "Thunder Bay, Ontario, Canada". 
+
+Observation: (Assuming this action retrieves the relevant weather information for today, such as temperature, conditions, etc.)
+
+Final Answer: The weather in Thunder Bay, Ontario, Canada today is [insert current weather conditions here].
+```
+```
+
+
+
+
+```python
+import re
+
+# Given text
+text = """Thought: To provide the current weather in Thunder Bay, Ontario, Canada, I will need to check a reliable weather source for up-to-date information.
+
+Action: CheckWeatherAPI with the location "Thunder Bay, Ontario, Canada".
+
+Observation: (Assuming this action retrieves the relevant weather information for today, such as temperature, conditions, etc.)
+
+Final Answer: The weather in Thunder Bay, Ontario, Canada today is [insert current weather conditions here]."""
+
+# Regular expression to extract Action and its parameters
+action_pattern = r"Action:\s*(\w+)\s+with\s+the\s+location\s+\"([^\"]+)\""
+
+# Search for the pattern in the text
+match = re.search(action_pattern, text)
+
+if match:
+    action = match.group(1)
+    parameters = match.group(2)
+    print(f"Action: {action}")
+    print(f"Parameters: {parameters}")
+else:
+    print("No action found.")
+```
+
+### Output
+
+When you run the above code, the output will be:
+
+```
+Action: CheckWeatherAPI
+Parameters: Thunder Bay, Ontario, Canada
+```
+
+
+
+
+```python
+import re
+
+# Regular expression to extract Action and its parameters
+action_pattern = r"Action:\s*(\w+)\s+with\s+the\s+location\s+\"([^\"]+)\""
+
+# Search for the pattern in the text
+match = re.search(action_pattern, text)
+
+if match:
+    action = match.group(1)
+    parameters = match.group(2)
+    print(f"Action: {action}")
+    print(f"Parameters: {parameters}")
+else:
+    print("No action found.")
+```
+
+    Action: CheckWeatherAPI
+    Parameters: Thunder Bay, Ontario, Canada
+
+
+
+```python
+text_1 = """Thought: To provide the user with the current weather in Thunder Bay, Ontario, Canada, I need to check a reliable source for up-to-date weather information. 
+
+Action: CheckWeather("Thunder Bay, Ontario, Canada")
+"""
+```
+
+
+```python
+import re
+pattern = r'Action:\s*(\w+)\("([^"]+)"\)'
+
+match = re.search(pattern, text)
+if match:
+    tool_name = match.group(1)    # 'GetWeather'
+    tool_input = match.group(2)   # 'Thunder Bay, Ontario, Canada'
+    print("Tool name:", tool_name)
+    print("Tool input:", tool_input)
+else:
+    print("No match found.")
+```
+
+    No match found.
+
+
+
+```python
+import requests
+import os
+
+def get_current_weather(city_name):
+    #base_url = "https://api.openweathermap.org/data/3.0/onecall"
+    #params = {
+    #    "lat": 48.3809,
+    #    "lon": 89.2477,
+    #    "appid": os.environ.get('OPENWEATHERMAPS_API_KEY'),
+    #    "units": "metric"  # use "imperial" for Fahrenheit
+    #}
+
+    # Make the GET request
+    #response = requests.get(base_url, params=params)
+    
+    # Raise an exception if there's an HTTP error
+    #response.raise_for_status()
+    
+    # Parse the JSON response
+    #data = response.json()
+
+    # Extract relevant fields from the response
+    #weather_info = {
+    #    "city": data["name"],
+    #    "temperature": data["main"]["temp"],
+    #    "description": data["weather"][0]["description"],
+    #    "humidity": data["main"]["humidity"]
+    #}
+    weather_info = {
+        "city": "Thunder Bay",
+        "temperature": -5.2,   # in Celsius
+        "description": "snow",
+        "humidity": 85         # in percentage
+    }   
+    return weather_info
+```
+
+
+```python
+if tool_name == 'CheckWeather':  #'GetWeather'
+    weather_info = get_current_weather(tool_input)
+    print(weather_info)
+```
+
+    {'city': 'Thunder Bay', 'temperature': -5.2, 'description': 'snow', 'humidity': 85}
+
+
+
+```python
+updated_text = text + f"\n\n Observation: {weather_info}"
+print(updated_text)
+```
+
+    Thought: To provide the current weather in Thunder Bay, Ontario, Canada, I will need to check a reliable weather source for up-to-date information. 
+    
+    Action: CheckWeatherAPI with the location "Thunder Bay, Ontario, Canada". 
+    
+    Observation: (Assuming this action retrieves the relevant weather information for today, such as temperature, conditions, etc.)
+    
+    Final Answer: The weather in Thunder Bay, Ontario, Canada today is [insert current weather conditions here].
+    
+     Observation: {'city': 'Thunder Bay', 'temperature': -5.2, 'description': 'snow', 'humidity': 85}
+
+
+
+```python
+completion = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": system_prompt},
+        {"role": "user","content": user_prompt},
+        {"role": "assistant","content": text},
+        {"role": "user","content": updated_text}
+    ]
+)
+```
+
+
+```python
+text2 = completion.choices[0].message.content
+print(text2)
+```
+
+    Final Answer: The weather in Thunder Bay, Ontario, Canada today is -5.2°C with snow and a humidity of 85%.
+
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+
+Show an example llm application with openai using ReAct prompting and llamaindex
+```
+
+
+# Example LLM Application with OpenAI Using ReAct Prompting and LlamaIndex
+
+## Overview
+
+In this example, we will demonstrate how to use ReAct prompting with OpenAI's language model (LLM) in conjunction with LlamaIndex to enhance information retrieval and decision-making tasks. LlamaIndex helps manage and query large datasets, making it easier for the LLM to provide contextually relevant responses based on the data.
+
+## Use Case
+
+Let's consider a scenario where we want to analyze customer feedback data to improve a product. We will fetch relevant feedback using LlamaIndex and then apply ReAct prompting to derive insights and actionable steps.
+
+## Step-by-Step Implementation
+
+### Step 1: Set Up LlamaIndex
+
+First, ensure that you have LlamaIndex installed and set up with your dataset containing customer feedback.
+
+```python
+from llama_index import Document, SimpleDocumentIndex
+
+# Example customer feedback data
+feedback_data = [
+    Document(text="This product is great! I love the battery life."),
+    Document(text="The user interface is confusing and not user-friendly."),
+    Document(text="Excellent customer service, but the product quality could be improved."),
+]
+
+# Create an index with the feedback data
+index = SimpleDocumentIndex(documents=feedback_data)
+```
+
+### Step 2: Query the Index
+
+Next, we will query the index to retrieve relevant feedback that pertains to product usability and quality.
+
+```python
+# Query the index for feedback related to usability
+query = "user interface"
+results = index.query(query)
+
+# Retrieve the feedback texts
+relevant_feedback = [doc.text for doc in results]
+```
+
+### Step 3: Prepare ReAct Prompt
+
+Now, we will prepare a ReAct prompt that incorporates reasoning, action, and output based on the retrieved feedback.
+
+```python
+# Construct the ReAct prompt
+react_prompt = f"""
+### Reasoning
+Based on the following customer feedback, analyze the usability and quality of the product:
+- {relevant_feedback[0]}
+- {relevant_feedback[1]}
+- {relevant_feedback[2]}
+
+### Action
+Identify key issues and suggest actionable steps to improve the product.
+
+### Output
+"""
+```
+
+### Step 4: Call OpenAI API
+
+Using the constructed prompt, we will call the OpenAI API to generate a response.
+
+```python
+import openai
+
+# Call OpenAI's API with the ReAct prompt
+response = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role": "user", "content": react_prompt}
+    ]
+)
+
+# Extract the output from the response
+output = response['choices'][0]['message']['content']
+print(output)
+```
+
+### Example Output
+
+The output from the model might look something like this:
+
+```
+### Key Issues Identified:
+1. **User Interface Confusion**: Multiple users have expressed that the interface is not intuitive, which can lead to frustration.
+2. **Product Quality Concerns**: While customer service is praised, there are concerns regarding overall product quality.
+
+### Suggested Actionable Steps:
+1. **Conduct Usability Testing**: Organize sessions with users to identify specific pain points in the interface.
+2. **Revise User Interface Design**: Based on feedback, simplify the navigation and improve visual cues to enhance user experience.
+3. **Quality Control Review**: Implement a more rigorous quality control process to address concerns about product durability.
+4. **Customer Feedback Loop**: Establish a continuous feedback mechanism to keep improving both product and service.
+```
+
+## Conclusion
+
+In this example, we demonstrated how to effectively combine LlamaIndex for data querying with ReAct prompting for insightful analysis and actionable recommendations using OpenAI's language model. This approach enhances the decision-making process by leveraging the strengths of both tools.
 
 
 
@@ -4723,3 +5528,783 @@ Understanding data types is crucial for effective programming and data manipulat
 ```python
 
 ```
+
+
+```python
+%%ai openai-chat:gpt-4o-mini
+
+Show an example llm application with openai using ReAct prompting and langchain
+```
+
+
+# Example LLM Application with OpenAI Using ReAct Prompting and LangChain
+
+## Overview
+
+In this example, we will demonstrate how to use ReAct prompting with OpenAI's language model (LLM) in conjunction with LangChain to facilitate complex tasks such as data retrieval, reasoning, and decision-making. LangChain provides a framework to connect LLMs with external data sources, making it easier to create applications that require structured interactions.
+
+## Use Case
+
+Let's consider a scenario where we want to analyze and summarize product reviews from an external API and provide actionable insights based on the analysis. We will use LangChain to fetch reviews and apply ReAct prompting to derive insights.
+
+## Step-by-Step Implementation
+
+### Step 1: Set Up LangChain
+
+First, ensure that you have LangChain installed and configured to interact with an external API (e.g., a product review API).
+
+```bash
+pip install langchain openai
+```
+
+### Step 2: Import Libraries and Initialize Components
+
+Next, we will import the necessary libraries and set up the components for fetching data and interacting with the OpenAI API.
+
+```python
+from langchain.chains import LLMChain
+from langchain.prompts import PromptTemplate
+from langchain.llms import OpenAI
+from langchain.agents import create_openai_functions_agent
+import requests
+
+# Initialize OpenAI LLM
+llm = OpenAI(model="gpt-3.5-turbo")
+
+# Define the API endpoint and fetch product reviews
+def fetch_reviews(product_id):
+    # Simulating an API call. Replace this with the actual API request.
+    response = [
+        "The product is fantastic, great value for money!",
+        "I found the setup process to be quite complicated.",
+        "Excellent customer service but the product failed after a week.",
+        "Very user-friendly and intuitive to use."
+    ]
+    return response
+```
+
+### Step 3: Construct ReAct Prompt
+
+Now, we will create a ReAct prompt that incorporates reasoning and action based on the reviews retrieved.
+
+```python
+# Function to create the ReAct prompt
+def create_react_prompt(reviews):
+    reviews_text = "\n- ".join(reviews)
+    
+    react_prompt = f"""
+    ### Reasoning
+    Analyze the following product reviews to identify strengths and weaknesses:
+    - {reviews_text}
+
+    ### Action
+    Provide actionable recommendations for improvement based on the analysis.
+
+    ### Output
+    """
+    return react_prompt
+```
+
+### Step 4: Fetch Reviews and Generate Insights
+
+We will fetch the reviews, create the ReAct prompt, and then call the OpenAI API to generate insights.
+
+```python
+# Fetch reviews for a specific product
+product_id = '12345'
+reviews = fetch_reviews(product_id)
+
+# Create the ReAct prompt
+react_prompt = create_react_prompt(reviews)
+
+# Call the OpenAI LLM with the ReAct prompt
+response = llm(react_prompt)
+
+# Print the generated output
+print("Generated Insights:")
+print(response)
+```
+
+### Example Output
+
+The output from the model might look something like this:
+
+```
+### Strengths:
+1. **Value for Money**: Many users appreciated the product's affordability and quality.
+2. **User-Friendliness**: Several reviews highlighted how intuitive the product is to use.
+
+### Weaknesses:
+1. **Complicated Setup**: Users expressed frustration over the complexity of the setup process.
+2. **Durability Issues**: There are concerns regarding the product's reliability over time.
+
+### Actionable Recommendations:
+1. **Simplify Setup Instructions**: Create detailed, easy-to-follow setup guides or video tutorials to assist users.
+2. **Enhance Quality Control**: Review manufacturing processes to ensure product durability and reliability.
+3. **User Feedback Loop**: Implement a system for continuous user feedback to monitor satisfaction and areas for improvement.
+```
+
+## Conclusion
+
+In this example, we demonstrated how to effectively use LangChain to fetch data and combine it with ReAct prompting for insightful analysis and actionable recommendations using OpenAI's language model. This approach allows for structured interactions that enhance decision-making processes based on real-world data.
+
+
+
+### Open Weather MAP API
+- [OpenWeatherMap](https://openweathermap.org/api)
+
+#### Find current weather of any city using OpenWeatherMap API in Python
+- [GeeksforGeeks](https://www.geeksforgeeks.org/python-find-current-weather-of-any-city-using-openweathermap-api/)
+
+
+```python
+import requests
+import json
+```
+
+
+```python
+os.environ["OPENWEATHERMAP_API_KEY"] = getpass.getpass("Enter your open weather map api key: ")
+openweathermap_api_key = os.getenv("OPENWEATHERMAP_API_KEY")
+```
+
+    Enter your open weather map api key:  ········
+
+
+
+```python
+# print(openweathermap_api_key)
+```
+
+
+```python
+def get_current_city_weather():
+    api_key = openweathermap_api_key
+     
+    # base_url variable to store url
+    base_url = "http://api.openweathermap.org/data/2.5/weather?"
+     
+    # Give city name
+    city_name = input("Enter city name : ")
+     
+    # complete_url variable to store
+    # complete url address
+    complete_url = base_url + "appid=" + api_key + "&q=" + city_name
+     
+    # get method of requests module
+    # return response object
+    response = requests.get(complete_url)
+     
+    # json method of response object 
+    # convert json format data into
+    # python format data
+    x = response.json()
+     
+    # Now x contains list of nested dictionaries
+    # Check the value of "cod" key is equal to
+    # "404", means city is found otherwise,
+    # city is not found
+    if x["cod"] != "404":
+     
+        # store the value of "main"
+        # key in variable y
+        y = x["main"]
+     
+        # store the value corresponding
+        # to the "temp" key of y
+        current_temperature = y["temp"]
+     
+        # store the value corresponding
+        # to the "pressure" key of y
+        current_pressure = y["pressure"]
+     
+        # store the value corresponding
+        # to the "humidity" key of y
+        current_humidity = y["humidity"]
+     
+        # store the value of "weather"
+        # key in variable z
+        z = x["weather"]
+     
+        # store the value corresponding 
+        # to the "description" key at 
+        # the 0th index of z
+        weather_description = z[0]["description"]
+     
+        # print following values
+        print(" Temperature (in kelvin unit) = " +
+                        str(current_temperature) +
+              "\n atmospheric pressure (in hPa unit) = " +
+                        str(current_pressure) +
+              "\n humidity (in percentage) = " +
+                        str(current_humidity) +
+              "\n description = " +
+                        str(weather_description))
+     
+    else:
+        print(" City Not Found ")
+```
+
+
+```python
+get_current_city_weather()
+```
+
+    Enter city name :  London
+
+
+     Temperature (in kelvin unit) = 273.33
+     atmospheric pressure (in hPa unit) = 1003
+     humidity (in percentage) = 94
+     description = overcast clouds
+
+
+
+```python
+get_current_city_weather()
+```
+
+    Enter city name :  Kampala
+
+
+     Temperature (in kelvin unit) = 304.93
+     atmospheric pressure (in hPa unit) = 1009
+     humidity (in percentage) = 24
+     description = scattered clouds
+
+
+
+```python
+get_current_city_weather()
+```
+
+    Enter city name :  Nairobi
+
+
+     Temperature (in kelvin unit) = 298.08
+     atmospheric pressure (in hPa unit) = 1012
+     humidity (in percentage) = 41
+     description = broken clouds
+
+
+#### Find current weather of any city using OpenWeatherMap API in Python using PyOWM
+- [PyOWM - OpenWeatherMap](https://openweathermap.org/examples#python)
+- [PyOWM - Github](https://github.com/csparpa/pyowm)
+- [PyOWM - Youtube](https://www.youtube.com/watch?v=123Vz_3E0Zs&feature=youtu.be)
+- [PyOWN - Code recipes](https://pyowm.readthedocs.io/en/latest/v3/code-recipes.html)
+
+
+```python
+%%capture
+!pip -q install pyowm
+```
+
+
+```python
+from pyowm import OWM
+from pyowm.utils import config
+from pyowm.utils import timestamps
+
+
+def pyown_current_city_weather(city_country):
+    # ---------- FREE API KEY examples ---------------------
+    
+    owm = OWM(openweathermap_api_key)
+    mgr = owm.weather_manager()
+    
+    
+    observation = mgr.weather_at_place(city_country)
+    w = observation.weather
+    print(f"Weather details: {w.__dict__}")
+    
+    print(f"Weather detailed status: {w.detailed_status}")  # 'clouds'
+    print(f"Wind: {w.wind()}") # {'speed': 4.6, 'deg': 330}
+    print(f"Humidity: {w.humidity}")  # 87
+    print(f"Temperature: {w.temperature('celsius')}")  # {'temp_max': 10.5, 'temp': 9.7, 'temp_min': 9.0}
+    print(f"Rain: {w.rain}")  # {}
+    print(f"Heat index: {w.heat_index}")  # None
+    print(f"Clouds: {w.clouds}")  # 75
+    
+    # Will it be clear tomorrow at this time in Milan (Italy) ?
+    # forecast = mgr.forecast_at_place('Milan,IT', 'daily')
+    # answer = forecast.will_be_clear_at(timestamps.tomorrow())
+    
+    # ---------- PAID API KEY example ---------------------
+    
+    # config_dict = config.get_default_config_for_subscription_type('professional')
+    # owm = OWM('your paid OWM API key', config_dict)
+    
+    # What's the current humidity in Berlin (Germany) ?
+    # one_call_object = mgr.one_call(lat=52.5244, lon=13.4105)
+    # one_call_object.current.humidity
+```
+
+
+```python
+# Search for current weather in London (Great Britain) and get details
+pyown_current_city_weather('London,GB')
+```
+
+    Weather details: {'ref_time': 1736333199, 'sset_time': 1736352604, 'srise_time': 1736323438, 'clouds': 99, 'rain': {}, 'snow': {}, 'wnd': {'speed': 1.54, 'deg': 0}, 'humidity': 93, 'pressure': {'press': 1002, 'sea_level': 1002}, 'temp': {'temp': 274.09, 'temp_kf': None, 'temp_max': 275.1, 'temp_min': 273.13, 'feels_like': 272.41}, 'status': 'Clouds', 'detailed_status': 'overcast clouds', 'weather_code': 804, 'weather_icon_name': '04d', 'visibility_distance': 10000, 'dewpoint': None, 'humidex': None, 'heat_index': None, 'utc_offset': 0, 'uvi': None, 'precipitation_probability': None}
+    Weather detailed status: overcast clouds
+    Wind: {'speed': 1.54, 'deg': 0}
+    Humidity: 93
+    Temperature: {'temp': 0.94, 'temp_max': 1.95, 'temp_min': -0.02, 'feels_like': -0.74, 'temp_kf': None}
+    Rain: {}
+    Heat index: None
+    Clouds: 99
+
+
+
+```python
+# Search for current weather in Kampala (Uganda) and get details
+pyown_current_city_weather('Kampala,UG')
+```
+
+    Weather details: {'ref_time': 1736333331, 'sset_time': 1736351953, 'srise_time': 1736308385, 'clouds': 39, 'rain': {}, 'snow': {}, 'wnd': {'speed': 0.85, 'deg': 116, 'gust': 2.3}, 'humidity': 24, 'pressure': {'press': 1008, 'sea_level': 1008}, 'temp': {'temp': 305.23, 'temp_kf': None, 'temp_max': 305.23, 'temp_min': 305.23, 'feels_like': 303.47}, 'status': 'Clouds', 'detailed_status': 'scattered clouds', 'weather_code': 802, 'weather_icon_name': '03d', 'visibility_distance': 10000, 'dewpoint': None, 'humidex': None, 'heat_index': None, 'utc_offset': 10800, 'uvi': None, 'precipitation_probability': None}
+    Weather detailed status: scattered clouds
+    Wind: {'speed': 0.85, 'deg': 116, 'gust': 2.3}
+    Humidity: 24
+    Temperature: {'temp': 32.08, 'temp_max': 32.08, 'temp_min': 32.08, 'feels_like': 30.32, 'temp_kf': None}
+    Rain: {}
+    Heat index: None
+    Clouds: 39
+
+
+
+```python
+# Search for current weather in Nairobi (Kenya) and get details
+pyown_current_city_weather('Nairobi,KE')
+```
+
+    Weather details: {'ref_time': 1736333099, 'sset_time': 1736351094, 'srise_time': 1736307211, 'clouds': 75, 'rain': {}, 'snow': {}, 'wnd': {'speed': 2.57, 'deg': 90}, 'humidity': 36, 'pressure': {'press': 1010, 'sea_level': 1010}, 'temp': {'temp': 299.08, 'temp_kf': None, 'temp_max': 299.08, 'temp_min': 299.08, 'feels_like': 298.67}, 'status': 'Clouds', 'detailed_status': 'broken clouds', 'weather_code': 803, 'weather_icon_name': '04d', 'visibility_distance': 10000, 'dewpoint': None, 'humidex': None, 'heat_index': None, 'utc_offset': 10800, 'uvi': None, 'precipitation_probability': None}
+    Weather detailed status: broken clouds
+    Wind: {'speed': 2.57, 'deg': 90}
+    Humidity: 36
+    Temperature: {'temp': 25.93, 'temp_max': 25.93, 'temp_min': 25.93, 'feels_like': 25.52, 'temp_kf': None}
+    Rain: {}
+    Heat index: None
+    Clouds: 75
+
+
+### OpenWeatherMap Langchain
+
+- [Langchain](https://python.langchain.com/docs/integrations/tools/openweathermap/)
+- [Notebook](https://colab.research.google.com/github/langchain-ai/langchain/blob/master/docs/docs/integrations/tools/openweathermap.ipynb#scrollTo=bf4f6854)
+
+This notebook goes over how to use the `OpenWeatherMap` component to fetch weather information.
+
+First, you need to sign up for an `OpenWeatherMap API` key:
+
+1. Go to OpenWeatherMap and sign up for an API key [here](https://openweathermap.org/api/)
+2. pip install pyowm
+
+Then we will need to set some environment variables:
+1. Save your API KEY into OPENWEATHERMAP_API_KEY env variable
+
+#### Use the wrapper OpenWeatherMapAPIWrapper
+
+
+```python
+%%capture
+!pip install -q langchain langchain-community
+```
+
+
+```python
+import os
+
+from langchain_community.utilities import OpenWeatherMapAPIWrapper
+
+os.environ["OPENWEATHERMAP_API_KEY"] = getpass.getpass("Enter your open weather map api key: ")
+
+weather = OpenWeatherMapAPIWrapper()
+```
+
+    Enter your open weather map api key:  ········
+
+
+
+```python
+weather_data = weather.run("London,GB")
+print(weather_data)
+```
+
+    In London,GB, the current weather is as follows:
+    Detailed status: overcast clouds
+    Wind speed: 0.51 m/s, direction: 0°
+    Humidity: 94%
+    Temperature: 
+      - Current: 1.0°C
+      - High: 1.95°C
+      - Low: 0.01°C
+      - Feels like: 1.0°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 99%
+
+
+#### Use the Agent tool and ReAct Prompting
+
+
+```python
+import os
+
+from langchain.agents import AgentType, initialize_agent, load_tools
+from langchain_openai import OpenAI
+
+os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter your openai api key: ")
+os.environ["OPENWEATHERMAP_API_KEY"] = getpass.getpass("Enter your open weather map api key: ")
+
+llm = OpenAI(temperature=0)
+
+tools = load_tools(["openweathermap-api"], llm)
+
+agent_chain = initialize_agent(
+    tools=tools, llm=llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
+)
+```
+
+    Enter your openai api key:  ········
+    Enter your open weather map api key:  ········
+
+
+    /tmp/ipykernel_409/2933552868.py:13: LangChainDeprecationWarning: The function `initialize_agent` was deprecated in LangChain 0.1.0 and will be removed in 1.0. Use Use new agent constructor methods like create_react_agent, create_json_agent, create_structured_chat_agent, etc. instead.
+      agent_chain = initialize_agent(
+
+
+
+```python
+agent_chain.invoke("What's the weather like in London?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to get the current weather information for London.
+    Action: open_weather_map
+    Action Input: London,GB[0m
+    Observation: [36;1m[1;3mIn London,GB, the current weather is as follows:
+    Detailed status: overcast clouds
+    Wind speed: 0.51 m/s, direction: 0°
+    Humidity: 94%
+    Temperature: 
+      - Current: 1.0°C
+      - High: 1.95°C
+      - Low: 0.01°C
+      - Feels like: 1.0°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 99%[0m
+    Thought:[32;1m[1;3m I now know the final answer.
+    Final Answer: The current weather in London is overcast with a temperature of 1.0°C and high humidity of 94%.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in London?",
+     'output': 'The current weather in London is overcast with a temperature of 1.0°C and high humidity of 94%.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in Kampala?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to fetch current weather information
+    Action: open_weather_map
+    Action Input: Kampala[0m
+    Observation: [36;1m[1;3mIn Kampala, the current weather is as follows:
+    Detailed status: scattered clouds
+    Wind speed: 0.85 m/s, direction: 116°
+    Humidity: 24%
+    Temperature: 
+      - Current: 32.08°C
+      - High: 32.08°C
+      - Low: 32.08°C
+      - Feels like: 30.32°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 39%[0m
+    Thought:[32;1m[1;3m I now know the final answer
+    Final Answer: The current weather in Kampala is scattered clouds with a temperature of 32.08°C.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in Kampala?",
+     'output': 'The current weather in Kampala is scattered clouds with a temperature of 32.08°C.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in Nairobi?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to get the current weather information for Nairobi.
+    Action: open_weather_map
+    Action Input: Nairobi[0m
+    Observation: [36;1m[1;3mIn Nairobi, the current weather is as follows:
+    Detailed status: scattered clouds
+    Wind speed: 3.16 m/s, direction: 118°
+    Humidity: 31%
+    Temperature: 
+      - Current: 27.46°C
+      - High: 27.46°C
+      - Low: 27.46°C
+      - Feels like: 26.76°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 46%[0m
+    Thought:[32;1m[1;3m I now know the final answer.
+    Final Answer: The current weather in Nairobi is scattered clouds with a temperature of 27.46°C.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in Nairobi?",
+     'output': 'The current weather in Nairobi is scattered clouds with a temperature of 27.46°C.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in Lagos?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to fetch current weather information for Lagos.
+    Action: open_weather_map
+    Action Input: Lagos[0m
+    Observation: [36;1m[1;3mIn Lagos, the current weather is as follows:
+    Detailed status: few clouds
+    Wind speed: 1.27 m/s, direction: 173°
+    Humidity: 40%
+    Temperature: 
+      - Current: 35.26°C
+      - High: 35.26°C
+      - Low: 35.26°C
+      - Feels like: 37.7°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 18%[0m
+    Thought:[32;1m[1;3m I now know the final answer.
+    Final Answer: The current weather in Lagos is few clouds with a temperature of 35.26°C and a humidity of 40%.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in Lagos?",
+     'output': 'The current weather in Lagos is few clouds with a temperature of 35.26°C and a humidity of 40%.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in Nigeria?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to get the current weather information for Nigeria.
+    Action: open_weather_map
+    Action Input: Nigeria[0m
+    Observation: [36;1m[1;3mIn Nigeria, the current weather is as follows:
+    Detailed status: clear sky
+    Wind speed: 4.36 m/s, direction: 64°
+    Humidity: 13%
+    Temperature: 
+      - Current: 30.01°C
+      - High: 30.01°C
+      - Low: 30.01°C
+      - Feels like: 28.14°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 6%[0m
+    Thought:[32;1m[1;3m I now know the final answer.
+    Final Answer: The current weather in Nigeria is clear and sunny with a temperature of 30.01°C.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in Nigeria?",
+     'output': 'The current weather in Nigeria is clear and sunny with a temperature of 30.01°C.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in Nigeria, Abuja?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to fetch current weather information for a specified location.
+    Action: open_weather_map
+    Action Input: Nigeria, Abuja[0m
+    Observation: [36;1m[1;3mIn Nigeria, Abuja, the current weather is as follows:
+    Detailed status: clear sky
+    Wind speed: 4.36 m/s, direction: 64°
+    Humidity: 13%
+    Temperature: 
+      - Current: 30.01°C
+      - High: 30.01°C
+      - Low: 30.01°C
+      - Feels like: 28.14°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 6%[0m
+    Thought:[32;1m[1;3m I now know the final answer.
+    Final Answer: The current weather in Nigeria, Abuja is clear and sunny with a temperature of 30.01°C.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in Nigeria, Abuja?",
+     'output': 'The current weather in Nigeria, Abuja is clear and sunny with a temperature of 30.01°C.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in Abuja, Nigeria?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to fetch current weather information for Abuja, Nigeria.
+    Action: open_weather_map
+    Action Input: Abuja, Nigeria[0m
+    Observation: [36;1m[1;3mIn Abuja, Nigeria, the current weather is as follows:
+    Detailed status: clear sky
+    Wind speed: 0.63 m/s, direction: 121°
+    Humidity: 11%
+    Temperature: 
+      - Current: 33.81°C
+      - High: 33.81°C
+      - Low: 33.81°C
+      - Feels like: 31.3°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 6%[0m
+    Thought:[32;1m[1;3m I now know the final answer.
+    Final Answer: The current weather in Abuja, Nigeria is clear and hot with a temperature of 33.81°C.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in Abuja, Nigeria?",
+     'output': 'The current weather in Abuja, Nigeria is clear and hot with a temperature of 33.81°C.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in Berlin, German?")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to fetch current weather information for Berlin, German
+    Action: open_weather_map
+    Action Input: Berlin, German[0m
+    Observation: [36;1m[1;3mIn Berlin, German, the current weather is as follows:
+    Detailed status: few clouds
+    Wind speed: 8.05 m/s, direction: 236°
+    Humidity: 80%
+    Temperature: 
+      - Current: 3.89°C
+      - High: 4.99°C
+      - Low: 2.41°C
+      - Feels like: -1.29°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 20%[0m
+    Thought:[32;1m[1;3m I now know the final answer
+    Final Answer: The current weather in Berlin, German is few clouds with a temperature of 3.89°C.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in Berlin, German?",
+     'output': 'The current weather in Berlin, German is few clouds with a temperature of 3.89°C.'}
+
+
+
+
+```python
+agent_chain.invoke("What's the weather like in London, Paris, and Berlin? Also state the temperature and humidity in these places.")
+```
+
+    [32;1m[1;3m I should use the open_weather_map tool to get the current weather information for each location.
+    Action: open_weather_map
+    Action Input: London,GB[0m
+    Observation: [36;1m[1;3mIn London,GB, the current weather is as follows:
+    Detailed status: overcast clouds
+    Wind speed: 0.51 m/s, direction: 0°
+    Humidity: 93%
+    Temperature: 
+      - Current: 1.0°C
+      - High: 1.95°C
+      - Low: 0.01°C
+      - Feels like: 1.0°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 99%[0m
+    Thought:[32;1m[1;3m I should repeat the same action for Paris,FR and Berlin,DE.
+    Action: open_weather_map
+    Action Input: Paris,FR[0m
+    Observation: [36;1m[1;3mIn Paris,FR, the current weather is as follows:
+    Detailed status: moderate rain
+    Wind speed: 5.14 m/s, direction: 110°
+    Humidity: 96%
+    Temperature: 
+      - Current: 4.05°C
+      - High: 4.49°C
+      - Low: 3.77°C
+      - Feels like: 0.08°C
+    Rain: {'1h': 1.19}
+    Heat index: None
+    Cloud cover: 100%[0m
+    Thought:[32;1m[1;3m I should repeat the same action for Berlin,DE.
+    Action: open_weather_map
+    Action Input: Berlin,DE[0m
+    Observation: [36;1m[1;3mIn Berlin,DE, the current weather is as follows:
+    Detailed status: few clouds
+    Wind speed: 8.05 m/s, direction: 236°
+    Humidity: 80%
+    Temperature: 
+      - Current: 3.9°C
+      - High: 4.99°C
+      - Low: 2.41°C
+      - Feels like: -1.27°C
+    Rain: {}
+    Heat index: None
+    Cloud cover: 20%[0m
+    Thought:[32;1m[1;3m I now know the final answer.
+    Final Answer: The weather in London, Paris, and Berlin is currently overcast clouds, moderate rain, and few clouds respectively. The temperatures are 1.0°C, 4.05°C, and 3.9°C and the humidities are 93%, 96%, and 80% in each location.[0m
+    
+    [1m> Finished chain.[0m
+
+
+
+
+
+    {'input': "What's the weather like in London, Paris, and Berlin? Also state the temperature and humidity in these places.",
+     'output': 'The weather in London, Paris, and Berlin is currently overcast clouds, moderate rain, and few clouds respectively. The temperatures are 1.0°C, 4.05°C, and 3.9°C and the humidities are 93%, 96%, and 80% in each location.'}
+
+

@@ -1,0 +1,21 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "Query Translation - Multi-Query": "src/llm_rag/graphs/multi_query/multi_query.py:graph",
+    "Query Translation - RAG-Fusion": "src/llm_rag/graphs/rag_fusion/rag_fusion.py:graph",
+    "Query Translation - Decomposition (Recursive)": "src/llm_rag/graphs/decomposition/recursive.py:graph",
+    "Query Translation - Decomposition (Parallel)": "src/llm_rag/graphs/decomposition/parallel.py:graph",
+    "Query Translation - Step-Back Prompting": "src/llm_rag/graphs/step_back/step_back.py:graph",
+    "Query Translation - HyDE": "src/llm_rag/graphs/hyde/hyde.py:graph",
+    "Routing - Logical Routing": "src/llm_rag/graphs/routing/logical.py:graph",
+    "Routing - Semantic Routing": "src/llm_rag/graphs/routing/semantic.py:graph",
+    "Query Construction - Self-Query": "src/llm_rag/graphs/query_construction/self_query.py:graph",
+    "Indexing - Multi-Vector - Summary": "src/llm_rag/graphs/multi_vector/summary.py:graph",
+    "Indexing - Multi-Vector - Chunks": "src/llm_rag/graphs/multi_vector/chunks.py:graph",
+    "Indexing - Multi-Vector - Hypothetical Questions": "src/llm_rag/graphs/multi_vector/hypothetical_questions.py:graph"
+  },
+  "env": "./.env",
+  "dockerfile_lines": []
+}
